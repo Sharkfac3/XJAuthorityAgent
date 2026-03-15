@@ -12,10 +12,10 @@ Era 1 (1988–1990) Renix sensors use proprietary connectors that are not shared
 ## Sensors with Renix-native connectors
 | Sensor | File |
 |---|---|
-| MAP sensor | `renix-native/map.md` |
-| TPS | `renix-native/tps.md` |
-| CTS and IAT | `renix-native/cts.md` |
-| CPS | `renix-native/cps.md` |
+| MAP sensor | `swap/wiring/connectors/renix-native/map.md` |
+| TPS | `swap/wiring/connectors/renix-native/tps.md` |
+| CTS and IAT | `swap/wiring/connectors/renix-native/cts.md` |
+| CPS | `swap/wiring/connectors/renix-native/cps.md` |
 
 ## General guidance
 - Before removing any Renix connector, photograph it from multiple angles

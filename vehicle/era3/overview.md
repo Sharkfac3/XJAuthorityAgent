@@ -3,7 +3,7 @@
 ## Identity
 - ECU: Chrysler JTEC (Jeep Truck Engine Controller) — slim silver/gray box
 - Diagnostic system: OBD-II standard 16-pin DLC — any generic OBD-II scanner works
-- No separate ICM — JTEC drives ignition via ASD relay (same as Era 2)
+- No separate ICM — JTEC controls ignition directly while the ASD relay supplies ignition/injector/fuel-pump power (same architecture as Era 2)
 
 ## What makes this era distinct
 OBD-II compliance is the primary change from Era 2. The JTEC adds downstream O2 sensor monitoring, full EVAP system control, and additional emissions sensors. Ignition splits into two sub-eras based on year.

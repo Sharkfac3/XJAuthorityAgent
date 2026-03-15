@@ -3,7 +3,7 @@
 ## Identity
 - ECU: Chrysler SBEC (Single Board Engine Controller) — single black box with cooling fins
 - Diagnostic system: OBD-I CEL blink codes via key cycle (ON-OFF-ON-OFF-ON); DRB-II scan tool for full data; codes end with 55
-- No separate ICM — SBEC drives ignition coil directly via ASD relay
+- No separate ICM — SBEC controls ignition directly while the ASD relay supplies ignition/injector/fuel-pump power
 
 ## What makes this era distinct
 Chrysler replaced the Renix system entirely in 1991. The SBEC is a single PCM handling both fuel and ignition. The ASD (Automatic Shut Down) relay is the key architectural difference from Era 1 — it simultaneously supplies the coil, injectors, and fuel pump, and is killed by the PCM on CPS signal loss.

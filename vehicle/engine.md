@@ -22,4 +22,4 @@ Extremely robust bottom end. Simple architecture. Responds well to open source E
 - Aging ECU and wiring on all years in scope
 
 ## Ignition note
-All three eras use an external coil driver — the ECU does not fire the coil directly in any era. The mechanism differs by era; see each era's `power-relay.md`.
+All three eras use an external coil driver — the ECU does not fire the coil directly in any era. The mechanism differs by era; see each era's `vehicle/eraX/power-relay.md`.

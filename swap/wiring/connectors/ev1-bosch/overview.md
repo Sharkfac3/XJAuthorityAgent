@@ -12,7 +12,7 @@
 - Era 1 (1988–1990): All injectors
 - Era 2 (1991–1995): All injectors
 - Era 3 (1996–1998): All injectors
-- Era 3 (1999–2001): Replaced by EV6 — see `ev6-uscar/`
+- Era 3 (1999–2001): Replaced by EV6 — see `swap/wiring/connectors/ev6-uscar/`
 
 ## Age and condition
 EV1 connectors on XJs are 25–35 years old. The connector body becomes brittle with heat cycling. The locking tab is the first thing to fail. Inspect all 6 before reuse. If any tab is cracked or missing, replace the connector pigtail — a loose injector connector causes intermittent misfires that are difficult to diagnose.
