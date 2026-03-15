@@ -31,6 +31,7 @@ Read `skillbuilding/index.md` and then load only the agent/skill file needed for
 - source intake from manuals/forum notes/vendor docs
 - backlog prioritization
 - pre-publication hardening review
+- framework self-optimization
 
 ## Core support files
 - `skillbuilding/gap-taxonomy.md`
@@ -45,6 +46,8 @@ Read `skillbuilding/index.md` and then load only the agent/skill file needed for
 - `skillbuilding/agent-design-rules.md`
 - `skillbuilding/skill-design-rules.md`
 - `skillbuilding/operating-modes.md`
+- `skillbuilding/artifact-contracts.md`
+- `skillbuilding/meta-improvement-loop.md`
 
 ## Important rule
 Nothing in this folder should become the source of new Jeep facts by itself.

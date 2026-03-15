@@ -8,12 +8,14 @@ These prompts are for expanding, auditing, and hardening the repo itself.
 - `fact-normalizer.md`
 - `backlog-architect.md`
 - `release-hardener.md`
+- `framework-architect.md`
 
 ## Shared framework inputs
 - `../gap-taxonomy.md`
 - `../critical-unknowns.md`
 - `../evidence-standards.md`
 - `../agent-design-rules.md`
+- `../artifact-contracts.md`
 - `../operating-modes.md`
 
 ## Rule

@@ -116,6 +116,8 @@ When a new recurring workflow appears:
 
 ## Relationship to other files
 - use `skillbuilding/agent-design-rules.md` for role prompt design
+- use `skillbuilding/artifact-contracts.md` to align workflow outputs with shared artifacts
 - use `skillbuilding/operating-modes.md` for common workflow modes
 - use `skillbuilding/domain-map.md` to understand what content surface the skill may touch
 - use `skillbuilding/work-item-lifecycle.md` to align workflow outcomes with project stage
+- use `skillbuilding/meta-improvement-loop.md` when changing the framework itself

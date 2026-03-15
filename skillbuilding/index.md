@@ -17,6 +17,7 @@ Use `skillbuilding/` when you need to:
 - Fact normalization → `skillbuilding/agents/fact-normalizer.md`
 - Backlog/prioritization → `skillbuilding/agents/backlog-architect.md`
 - Release hardening review → `skillbuilding/agents/release-hardener.md`
+- Framework self-improvement → `skillbuilding/agents/framework-architect.md`
 
 ## Skill routes
 - Full repo gap audit → `skillbuilding/skills/repo-gap-audit.md`
@@ -37,6 +38,8 @@ Use `skillbuilding/` when you need to:
 - Agent design rules → `skillbuilding/agent-design-rules.md`
 - Skill design rules → `skillbuilding/skill-design-rules.md`
 - Operating modes → `skillbuilding/operating-modes.md`
+- Artifact contracts → `skillbuilding/artifact-contracts.md`
+- Meta improvement loop → `skillbuilding/meta-improvement-loop.md`
 
 ## Templates
 - Gap report template → `skillbuilding/templates/gap-report.md`
@@ -44,6 +47,8 @@ Use `skillbuilding/` when you need to:
 - Source intake template → `skillbuilding/templates/source-intake.md`
 - Likely gap profile → `skillbuilding/templates/likely-gap-profile.md`
 - Critical unknown review → `skillbuilding/templates/critical-unknown-review.md`
+- Backlog item template → `skillbuilding/templates/backlog-item.md`
+- Hardening verdict template → `skillbuilding/templates/hardening-verdict.md`
 
 ## Ground rules
 - Load `AGENTS.md` first for repo routing context.
@@ -51,3 +56,4 @@ Use `skillbuilding/` when you need to:
 - Do not store canonical Jeep facts in `skillbuilding/`.
 - Move validated facts into `vehicle/`, `swap/`, or `book/`.
 - Keep unresolved items explicit with labels like `unverified`, `needs source`, or `year-range uncertain`.
+n`.

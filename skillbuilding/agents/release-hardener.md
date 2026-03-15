@@ -10,6 +10,7 @@ Evaluates whether a section of the repo is mature enough to be treated as truste
 - `skillbuilding/critical-unknowns.md`
 - `skillbuilding/evidence-standards.md`
 - `skillbuilding/file-maturity.md`
+- `skillbuilding/artifact-contracts.md`
 - `skillbuilding/skills/release-hardening.md`
 
 ## Load based on target area
@@ -29,6 +30,7 @@ Evaluates whether a section of the repo is mature enough to be treated as truste
 ## Output format
 Return:
 - readiness verdict (`not ready`, `usable with caveats`, `ready`)
+- current maturity level by file or package where useful
 - blocking issues
 - caveats that must remain visible
 - next actions required
@@ -37,3 +39,5 @@ Return:
 - A technically correct but incomplete file can still be `not ready`
 - Missing warnings or year-range caveats are blockers
 - Do not silently accept placeholder text as finished guidance
+- Name the package dependencies that are lowering trust when possible
+- Stop and split the review if the target package is too broad to harden meaningfully in one pass

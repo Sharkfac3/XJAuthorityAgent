@@ -222,6 +222,36 @@ Common failure patterns:
 Likely next stage:
 - any stage → scheduled work
 
+## Mode 8 — Framework self-improvement mode
+Goal:
+- improve `skillbuilding/` itself when the scaffolding becomes inconsistent, redundant, or weakly connected
+
+Typical questions:
+- what framework friction keeps recurring?
+- is this a policy, routing, artifact, template, agent, or skill problem?
+- what is the lightest fix that improves the system?
+
+Typical inputs:
+- `skillbuilding/meta-improvement-loop.md`
+- `skillbuilding/agent-design-rules.md`
+- `skillbuilding/skill-design-rules.md`
+- `skillbuilding/artifact-contracts.md`
+- affected framework files
+
+Typical outputs:
+- framework problem statement
+- recommended fix size
+- exact file changes
+- integration plan
+
+Common failure patterns:
+- adding new files when a small clarification would work
+- creating orphan framework docs
+- duplicating existing ideas with new names
+
+Likely next stage:
+- framework refinement and integration
+
 ## How to use operating modes
 When designing a new agent or skill, ask:
 1. Which operating mode is this mostly serving?
@@ -232,5 +262,7 @@ When designing a new agent or skill, ask:
 ## Relationship to other files
 - use `skillbuilding/agent-design-rules.md` for role design
 - use `skillbuilding/skill-design-rules.md` for workflow design
+- use `skillbuilding/artifact-contracts.md` to standardize outputs by mode
 - use `skillbuilding/work-item-lifecycle.md` for stage transitions
 - use `skillbuilding/backlog.md` for turning outputs into active work
+- use `skillbuilding/meta-improvement-loop.md` when the mode design itself needs revision

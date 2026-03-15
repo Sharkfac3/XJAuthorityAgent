@@ -10,8 +10,10 @@ Finds missing, weak, or risky areas in the repo that would block a real Jeep XJ 
 - `skillbuilding/domain-map.md`
 - `skillbuilding/gap-taxonomy.md`
 - `skillbuilding/critical-unknowns.md`
+- `skillbuilding/file-maturity.md`
 - `skillbuilding/templates/gap-report.md`
 - `skillbuilding/templates/critical-unknown-review.md`
+- `skillbuilding/artifact-contracts.md`
 
 ## Load based on scope
 - Full swap workflow audit → `swap/index.md`
@@ -35,7 +37,9 @@ Finds missing, weak, or risky areas in the repo that would block a real Jeep XJ 
 For each gap, return:
 - area
 - file(s) involved
-- gap type (`missing`, `partial`, `unclear`, `unverified`, `misplaced`)
+- gap status (`likely` or `confirmed`)
+- gap type (`missing`, `partial`, `unclear`, `unverified`, `misplaced`, `conflicting`)
+- current maturity if a file exists (`stub`, `partial`, `usable with caveats`, `trusted`)
 - why it matters to the swap
 - recommended canonical destination
 - suggested priority (`critical`, `high`, `medium`, `low`)
@@ -46,3 +50,4 @@ For each gap, return:
 - Prefer specific leaf-file recommendations over vague advice
 - Flag 1996 separately whenever era 3 content is involved
 - Do not invent missing facts; identify and route them
+- Stop and narrow scope if the audit target is too broad for a useful output

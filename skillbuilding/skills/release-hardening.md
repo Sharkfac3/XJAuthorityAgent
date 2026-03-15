@@ -4,7 +4,7 @@ Use this skill when deciding whether a section is mature enough to treat as trus
 
 ## Steps
 1. Read `AGENTS.md`.
-2. Read `skillbuilding/file-maturity.md`.
+2. Read `skillbuilding/file-maturity.md` and `skillbuilding/artifact-contracts.md`.
 3. Read `skillbuilding/agents/release-hardener.md`.
 4. Read the target files and only their necessary dependencies.
 5. Evaluate the package for accuracy, completeness, clarity, and visible caveats.
@@ -21,3 +21,6 @@ Use this skill when deciding whether a section is mature enough to treat as trus
 - tuning guidance lacks safety context
 - 1996 caveat is absent where required
 - output depends on unstated assumptions
+
+## Success condition
+The output should clearly state current maturity, readiness verdict, blockers, and what must happen next before the target can be treated as trusted.

@@ -173,7 +173,9 @@ When a new need appears:
 
 ## Relationship to other files
 - use `skillbuilding/skill-design-rules.md` for workflow design
+- use `skillbuilding/artifact-contracts.md` to keep outputs standardized
 - use `skillbuilding/operating-modes.md` for common repo-building modes
 - use `skillbuilding/work-item-lifecycle.md` for stage awareness
 - use `skillbuilding/file-maturity.md` when evaluating content trust
 - use `skillbuilding/domain-map.md` to understand the domain surface being routed
+- use `skillbuilding/meta-improvement-loop.md` when improving the framework itself
