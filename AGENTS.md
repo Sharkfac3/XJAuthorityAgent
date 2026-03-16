@@ -9,6 +9,12 @@ Cross-agent routing index for this repo.
 - Use `skillbuilding/` only for repo-building workflows, audits, and expansion planning.
 - Ignore deleted or archived redirect stubs.
 
+## Session context — file editing
+- The canonical repo root is the directory containing this file.
+- Claude Code sessions may run inside a git worktree nested under `.claude/worktrees/`.
+- Always edit files at the repo root (e.g. `vehicle/era2/trigger.md`), never the worktree copy under `.claude/worktrees/`.
+- If you are unsure which copy you are editing, check that the file path does NOT contain `.claude/worktrees/`.
+
 ## Repo map
 - `agents/` — role prompts
 - `vehicle/` — Jeep/XJ facts by era, engine, transmission
