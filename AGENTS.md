@@ -37,8 +37,10 @@ Cross-agent routing index for this repo.
 - Engine baseline: `vehicle/engine.md`
 - AW4 auto: `vehicle/trans/aw4.md`
 - Manual trans: `vehicle/trans/manual.md`
-- ECU selection: `swap/ecu-selection/requirements.md` + platform file
+- ECU selection: `swap/ecu-selection/requirements.md` + platform file (e.g. `speeduino.md` or `rusefi.md`)
+- ECU variant details: platform file + variant file (e.g. `swap/ecu-selection/speeduino-ocelot.md`)
 - Wiring: `swap/wiring/grounds.md` + `swap/wiring/harness.md` + era wiring file
+- Era 1 Renix → Ocelot wiring: `swap/wiring/era1-renix-ocelot.md`
 - Connectors: `swap/wiring/connectors/index.md`
 - Tuning: `swap/tuning/<topic>.md`
 - Role behavior: `agents/<role>.md`

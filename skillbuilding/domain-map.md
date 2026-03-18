@@ -72,7 +72,8 @@ Key domains:
 
 Typical canonical destinations:
 - `swap/ecu-selection/requirements.md`
-- platform files under `swap/ecu-selection/`
+- platform files under `swap/ecu-selection/` (e.g. `speeduino.md`, `rusefi.md`)
+- variant files under `swap/ecu-selection/` (e.g. `speeduino-ocelot.md`) — load alongside the platform file when a specific board is chosen
 - `swap/ecu-selection/iac-strategy.md`
 - `swap/ecu-selection/wideband.md`
 

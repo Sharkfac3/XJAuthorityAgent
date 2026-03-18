@@ -29,4 +29,14 @@ Standard Speeduino boards provide up to 4 ignition outputs. Sufficient for Era 3
 - TunerStudio documentation: tunerstudio.com
 - XJ-specific threads: Search "Jeep XJ Speeduino" on Speeduino forum and NAXJA forum
 
+## Hardware variants
+Speeduino is an ecosystem, not a single board. Variant files cover board-specific I/O, stepper driver availability, and form factor. Load the platform file plus the relevant variant file when a specific board is chosen.
+
+| Variant | File | Notes |
+|---|---|---|
+| Ocelot | `swap/ecu-selection/speeduino-ocelot.md` | Onboard stepper driver; confirm ignition output count for 2000–2001 |
+| Other variants | — | Add variant files as needed following the Ocelot file as a template |
+
+When no specific board has been chosen, use this file alone to evaluate Speeduino as a platform.
+
 ⚠️ Open source projects evolve. Verify all trigger pattern names and feature support against current firmware documentation — do not rely solely on this file.
