@@ -1,10 +1,10 @@
 # Skillbuilding
 
-Framework files for growing this repo into a stronger Jeep XJ ECU swap knowledge base using pi or opencode.
+Framework files for growing this repo into a stronger Jeep XJ technical knowledge system using pi or opencode.
 
 ## Purpose
 This folder is for **building the project itself**.
-It does not hold canonical Jeep/XJ technical facts.
+It does not hold canonical Jeep XJ technical facts.
 
 Use it to:
 - find missing content
@@ -15,14 +15,17 @@ Use it to:
 - harden draft content before it becomes trusted
 
 ## Boundary rule
-- `vehicle/` = stock Jeep facts
-- `swap/` = swap procedures and implementation knowledge
+- `vehicle/` = stock Jeep XJ facts
+- `work/` = procedures and project execution
+- `diagnostics/` = fault isolation
+- `sourcing/` = selection and interchange decisions
+- `swap/` = current canonical ECU swap execution during migration
 - `book/` = presentation and writing rules
-- `agents/` = current production role prompts
+- `agents/` = routing and behavior
 - `skillbuilding/` = meta-workflows for expanding and improving the repo
 
 ## Start here
-Read `skillbuilding/index.md` and then load only the agent/skill file needed for the current project-building task.
+Read `skillbuilding/index.md` and then load only the agent or skill file needed for the current project-building task.
 
 ## Typical uses
 - likely-gap modeling

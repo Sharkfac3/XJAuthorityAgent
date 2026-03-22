@@ -1,17 +1,24 @@
 # Swap Folder
 
-Canonical swap execution knowledge.
+Legacy-but-current canonical ECU swap execution knowledge during migration.
 
-This is the primary project axis.
-The repo exists to help someone get an open-source aftermarket ECU running in a Jeep XJ.
-The era folders exist to explain the stock system being replaced.
+Use this folder for current aftermarket ECU conversion work on the Jeep XJ: ECU selection, wiring integration, first-start setup, tuning, and related execution detail.
 
-## Taxonomy
-- `index.md` — swap workflow router
+This is no longer the repo's primary identity or the default entrypoint for every technical question. It is the active compatibility branch for ECU swap work while the broader architecture grows around `vehicle/`, `work/`, `diagnostics/`, and `sourcing/`.
+
+## Routing
+- For repo-wide routing, start in `AGENTS.md`.
+- For general job-oriented work, start in `work/index.md`.
+- For current ECU swap execution work, use `swap/index.md`.
+- For stock Jeep baseline facts needed to support a swap decision, load the relevant files under `vehicle/`.
+
+## Current branch map
+- `index.md` — ECU swap workflow router
 - `ecu-selection/` — platform requirements and tradeoffs
 - `wiring/` — wiring strategy, grounds, harness, connectors
-- `tuning/` — startup and tuning workflow
+- `tuning/` — first start, calibration, and tuning workflow
 
 ## Important rule
-`swap/` is for procedures, choices, and implementation details.
-Stock Jeep/XJ facts belong in `vehicle/`.
+`swap/` is for ECU swap procedures, choices, and implementation details.
+Stock Jeep XJ facts belong in `vehicle/`.
+Broader non-ECU work belongs under `work/`, `diagnostics/`, or `sourcing/` as appropriate.

@@ -1,9 +1,9 @@
 ---
 name: xj-swap-book
-description: Jeep XJ ECU swap knowledge-base router. Load for work in this repo, then read AGENTS.md and only the leaf files needed for the task.
+description: Jeep XJ technical knowledge system router. Load for work in this repo, then read AGENTS.md and only the leaf files needed for the task.
 ---
 
-# XJ ECU Swap Book Skill
+# XJ Authority Agent Skill
 
 ## Required first step
 - Read `AGENTS.md`.
@@ -11,10 +11,13 @@ description: Jeep XJ ECU swap knowledge-base router. Load for work in this repo,
 - Load only the files needed for the current task.
 
 ## Canonical content roots
-- `agents/`
 - `vehicle/`
-- `swap/`
+- `work/`
+- `diagnostics/`
+- `sourcing/`
+- `swap/` — current canonical ECU swap execution branch during migration
 - `book/`
+- `agents/`
 
 ## Repo-building framework
 - Use `skillbuilding/` for audits, expansion planning, source intake, backlog work, and readiness review.

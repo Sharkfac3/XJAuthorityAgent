@@ -1,26 +1,34 @@
-# XJ ECU Swap Book
+# XJ Authority Agent
 
-Knowledge-base repo for AI coding/writing agents building a Jeep XJ open-source ECU swap book.
+Jeep XJ technical knowledge system for agents and humans.
 
-## Goals
-- Keep the repo centered on what is required to install an open-source ECU in a 1988–2001 Jeep XJ
-- Preserve era-specific and year-specific differences that materially affect the swap
-- Keep canonical facts in a small number of predictable folders
-- Minimize default context/token usage
-- Work cleanly with both pi and AGENTS.md-based coding agents
+This repository covers the broader XJ platform:
+- stock identification, configuration, and subsystem facts
+- maintenance, repair, restoration, and setup work
+- diagnostics and fault isolation
+- upgrades and major swaps
+- sourcing, interchange, donor, and connector decisions
+- year, trim, package, drivetrain, and subsystem differences
+
+ECU swaps remain an important branch, but they are no longer the repo's defining center. During migration, current ECU swap execution content remains canonical under `swap/`.
 
 ## Entry points
-- `AGENTS.md` — primary cross-agent routing file for AGENTS-aware tools such as OpenCode-style agents
-- `SKILL.md` — root skill file for pi-oriented workflows
+- `AGENTS.md` — primary routing file for agents
+- `SKILL.md` — root skill entrypoint for pi workflows
 - `.pi/skills/xj-swap-book/SKILL.md` — project-local pi discovery wrapper
 
-## Canonical folders
-- `agents/`
-- `vehicle/` — stock Jeep/XJ facts and era-specific hardware context
-- `swap/` — primary workflow for making the aftermarket ECU work in the Jeep
-- `book/`
-- `docs/` for repo-governance notes only
+## Top-level domains
+- `vehicle/` — stock Jeep XJ facts and baselines
+- `work/` — maintenance, repairs, restoration, upgrades, swaps, inspections, setup
+- `diagnostics/` — symptom-first troubleshooting and fault isolation
+- `sourcing/` — parts, donor, connector, and interchange decisions
+- `swap/` — legacy-but-current ECU swap execution branch during migration
+- `book/` — presentation rules and deliverable structure
+- `agents/` — behavior and routing only
+- `docs/` — governance, taxonomy, and migration notes only
+- `skillbuilding/` — repo-building workflows, audits, intake, and hardening
 
 ## Notes
-- Root-level redirect stubs were removed to avoid ambiguity.
-- Agents should load the router first, then only the leaf files required for the task.
+- Classify the question type before loading content.
+- Prefer domain routers and narrow leaf files over broad repo sweeps.
+- Keep canonical technical truth in the content tree, not in `agents/`, `docs/`, or `skillbuilding/`.

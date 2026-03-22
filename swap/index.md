@@ -1,14 +1,23 @@
 # Swap Workflow Index
 
-This repo is organized around one core job:
-helping a user replace the stock Jeep XJ engine control system with an open-source aftermarket ECU.
+Use this index for the current canonical Jeep XJ ECU swap workflow during migration.
 
-The era folders exist to explain what the Jeep currently has. The swap folders exist to explain what to do next.
+The repository as a whole is a Jeep XJ technical knowledge system, not a swap-only project. `swap/` remains the active execution branch for aftermarket ECU conversion work until that material is migrated into `work/swaps/ecu/`.
+
+## When to use this branch
+Use `swap/` when the main question is how to make an aftermarket ECU work in a Jeep XJ.
+
+Use other top-level domains when the main question is different:
+- stock baseline or factory configuration → `vehicle/`
+- maintenance, repair, upgrade, inspection, or non-ECU swap procedure → `work/`
+- fault isolation or symptom diagnosis → `diagnostics/`
+- parts, donor, connector, or kit choice → `sourcing/`
 
 ## How to use this index
 1. Start from the swap stage you are in.
-2. Load the era-specific vehicle files only as needed to identify stock hardware, wiring, and exceptions.
-3. Keep year/era context attached to the actual swap decision.
+2. Load stock Jeep files from `vehicle/` only as needed to identify hardware, wiring, and year-specific constraints.
+3. Keep year and era context attached to the actual ECU swap decision.
+4. Treat this branch as the current equivalent of future `work/swaps/ecu/` routing.
 
 ## Stage 1 — Identify the stock control system
 Load:
@@ -92,5 +101,6 @@ Use this stage to answer:
 - How do transmission behavior and ECU tuning interact?
 
 ## Scope rule
-If a question is about what the Jeep came with, load `vehicle/`.
-If a question is about how to make the swap work, load `swap/` first and pull in `vehicle/` only for the stock-context facts you need.
+If a question is about what the Jeep came with, start in `vehicle/`.
+If a question is about how to make the ECU swap work, use `swap/` as the current canonical branch.
+If a question is broader than ECU swap execution, route through the appropriate top-level domain first.

@@ -1,0 +1,24 @@
+# Suspension Maintenance Index
+
+## Purpose
+Route routine suspension inspection and wear-item upkeep.
+
+## Scope
+Routine suspension inspection and wear-item upkeep.
+
+## What belongs here
+- concrete job folders and procedure leaves for this branch
+- local compatibility notes when year, drivetrain, ABS, or donor differences materially change the work
+- required-parts, procedure, and validation leaves when the topic grows beyond a single page
+- narrow cross-links to `vehicle/`, `diagnostics/`, or `sourcing/` when support context is needed
+
+## What does not belong here
+- stock baseline facts with no action context
+- symptom-first troubleshooting trees
+- sourcing-only comparisons as the primary topic
+- unrelated work classes or repo-governance content
+
+## Expected child branches
+- `bushing-and-joint-checks/` for periodic wear inspection
+- `shock-and-mount-service/` for serviceable suspension wear items
+- `fastener-retorque-and-ride-height-checks/` for recurring chassis upkeep

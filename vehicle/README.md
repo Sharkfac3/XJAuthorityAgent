@@ -1,23 +1,27 @@
 # Vehicle Folder
 
-Canonical Jeep XJ technical facts.
+Canonical stock Jeep XJ platform facts.
 
-This folder explains the stock Jeep systems that the swap must interface with or replace.
-It is not the main workflow axis; it is the compatibility context for the swap.
+Use this folder when the question is what the XJ came with, how a stock system is arranged, or what changed by year, era, package, configuration, or subsystem.
+
+This is not a swap-support-only branch. It is the stock baseline for the broader repository, including maintenance, diagnostics, upgrades, sourcing, and ECU swap work.
 
 ## Load strategy
-- Start with the relevant era overview
-- Then load only the leaf files needed for the question
-- Load `engine.md` for cross-era engine facts
-- Load `trans/aw4.md` or `trans/manual.md` for transmission-specific constraints
+- Start with `vehicle/index.md` for stock-fact routing
+- Then load the narrowest year, era, system, package, or configuration branch needed for the question
+- During transition, use legacy canonical branches like `era1/`, `era2/`, `era3/`, and `trans/` where the newer target branches are not filled out yet
 
-## Taxonomy
-- `engine.md` — cross-era engine facts
-- `trans/` — transmission facts
-- `era1/` — 1988–1990 Renix facts
-- `era2/` — 1991–1995 SBEC facts
-- `era3/` — 1996–2001 JTEC facts
+## Current branch map
+- `index.md` — stock-fact router
+- `years/` — time-based routing for model-year and era differences
+- `systems/` — subsystem-based stock facts
+- `packages/` — package-defined stock differences
+- `configurations/` — stock configuration matrices
+- `interchange-baselines/` — factual stock interchange limits
+- `era1/`, `era2/`, `era3/` — legacy-but-current canonical era branches during migration
+- `trans/` — legacy-but-current transmission fact branch during migration
+- `engine.md` — legacy cross-era engine baseline during migration
 
 ## Important rule
-If a fact changes by year or era, do not flatten it into a universal statement.
+If a fact changes by year, era, package, drivetrain, or subsystem family, do not flatten it into a universal statement.
 Use the narrowest truthful file.

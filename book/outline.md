@@ -1,5 +1,9 @@
 # Book: Outline
 
+## Scope note
+This file defines the current ECU swap book deliverable inside the broader Jeep XJ technical knowledge system.
+It does not define the identity or full scope of the repository.
+
 ## Title
 *Ditch the Black Box: A DIY Guide to Open Source ECU Swaps for the Jeep Cherokee XJ*
 
@@ -54,7 +58,7 @@
 - D: Glossary
 
 ## File linkage
-Each chapter maps to specific knowledge base files:
+This deliverable currently maps to ECU swap and stock-baseline knowledge base files:
 - Chapters 2–3 → `vehicle/era*/overview.md`
 - Chapter 11 → `swap/wiring/connectors/`
 - Chapter 12 → `swap/wiring/grounds.md`
