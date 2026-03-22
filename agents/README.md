@@ -1,27 +1,31 @@
 # Agents Folder
 
-Agent homes, role prompts, and task-specific loading instructions.
+Agent-facing behavior and routing lives here.
 
-## Structure
-- `book/` — book and presentation-oriented agent home
-- `assistant/` — general technical assistant agent home
-- legacy role prompts remain at the top level during migration:
+## Canonical policy in this branch
+- `index.md` is the canonical router for an agent home.
+- `README.md` is a lightweight human-facing mirror that must not add competing routing rules.
+- Technical Jeep facts do not live in `agents/`.
+
+## Current structure
+- `assistant/` — general Jeep XJ technical assistant routing
+- `book/` — book and presentation routing for human-facing deliverables
+- legacy helper prompts remain at the top level during transition:
   - `writer.md`
   - `technical.md`
   - `wiring.md`
   - `tuning.md`
   - `reviewer.md`
 
-## Intent
-Each agent should expose a stable entrypoint such as `agents/<agent>/index.md` while routing to canonical content under the main repo domains:
+## Routing rule
+Agents should start from `AGENTS.md`, classify the task by question type, then load the owning repo domain:
 - `vehicle/` for stock facts
 - `work/` for procedures and project execution
 - `diagnostics/` for fault isolation
 - `sourcing/` for selection decisions
-- `swap/` for current canonical ECU swap execution during migration
-- `book/` for presentation rules
+- `swap/` only when the task is specifically current ECU swap execution during migration
+- `book/` for presentation guidance
 - `docs/` and `skillbuilding/` for governance and repo-building work
 
-## Important rule
-Agent files route to source content.
-They should not become the source of new Jeep XJ facts.
+## Transitional note
+The top-level helper prompts are still in use for book and review workflows. They are compatibility helpers, not canonical technical sources.

@@ -4,21 +4,29 @@
 Route XJ battery, charging, and starting fault isolation.
 
 ## Scope
-Battery, charging, and starting fault isolation.
+Use this branch when the main question is what to test next in a no-crank, slow-crank, or low-voltage complaint.
 
 ## What belongs here
-- symptom-based leaves for this system or symptom family
-- component-specific subfolders when one problem area grows into multiple test paths
-- verification logic and follow-up checks after a likely fault is identified
-- local compatibility notes only when year, transmission, ABS, or configuration changes diagnosis materially
+- symptom-based charging and starting leaves
+- voltage-drop and supply-path fault isolation
+- verification checks after a likely cause is found
+- local compatibility notes only when the symptom path truly changes by year or configuration
 
 ## What does not belong here
-- full replacement or upgrade procedures
-- stock-only reference material with no symptom context
-- donor or buying guidance as the primary topic
-- unrelated system diagnostics
+- routine cable cleanup or battery service procedures
+- stock-only reference with no symptom context
+- upgrade recommendations as the primary topic
+- unrelated body-electrical troubleshooting
 
-## Expected child branches
-- `no-crank.md` for dead-start-command or starter-engagement faults
-- `slow-crank.md` for weak-cranking and voltage-drop diagnosis
-- `low-charging-voltage.md` for alternator, regulator, or wiring faults
+## Current child leaves
+- [`low-charging-voltage.md`](low-charging-voltage.md) — running-voltage diagnosis starter
+
+## Next likely child leaves
+- `no-crank.md`
+- `slow-crank.md`
+- `battery-drain.md`
+
+## Supporting canon
+- Stock charging and starting baseline: [`vehicle/systems/charging-starting/overview.md`](../../vehicle/systems/charging-starting/overview.md)
+- Charging and starting maintenance branch: [`work/maintenance/charging-starting/index.md`](../../work/maintenance/charging-starting/index.md)
+- Charging and starting repair branch: [`work/repairs/charging-starting/index.md`](../../work/repairs/charging-starting/index.md)

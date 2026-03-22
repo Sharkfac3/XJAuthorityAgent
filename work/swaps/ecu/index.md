@@ -27,6 +27,7 @@ Use this branch for ECU swap planning, wiring integration, first-start work, and
 - `planning/` for project definition, scope boundaries, and conversion-path selection
 - `ecu-selection/` for choosing the control strategy before following live content under `swap/ecu-selection/`
 - `wiring/` for harness integration and stock-interface routing via `swap/wiring/`
+- `integration/` for stock-subsystem coexistence topics such as AW4 TPS sharing
 - `sensors-and-inputs/` for trigger, sync, and sensor strategy decisions tied to the conversion
 - `first-start-and-validation/` for startup sequencing and immediate post-install checks
 - `tuning-and-calibration/` for the live migration bridge into `swap/tuning/` and later `work/setup-and-calibration/ecu/`

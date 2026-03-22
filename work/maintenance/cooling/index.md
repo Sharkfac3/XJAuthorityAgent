@@ -1,24 +1,32 @@
 # Cooling Maintenance Index
 
 ## Purpose
-Route cooling-system service, flush, refresh, and wear-item maintenance.
+Route cooling-system service, refresh, and wear-item maintenance.
 
 ## Scope
-Cooling-system service, flush, refresh, and wear-item maintenance.
+Use this branch when the main question is how to baseline or maintain the stock cooling system rather than diagnose a fault or choose parts.
 
 ## What belongs here
-- concrete job folders and procedure leaves for this branch
-- local compatibility notes when year, drivetrain, ABS, or donor differences materially change the work
-- required-parts, procedure, and validation leaves when the topic grows beyond a single page
-- narrow cross-links to `vehicle/`, `diagnostics/`, or `sourcing/` when support context is needed
+- scheduled or catch-up cooling service
+- refresh work for unknown-history vehicles
+- maintenance tasks that reduce future overheating risk
+- cross-links to stock baselines, diagnostics, and sourcing when support context is needed
 
 ## What does not belong here
-- stock baseline facts with no action context
-- symptom-first troubleshooting trees
-- sourcing-only comparisons as the primary topic
-- unrelated work classes or repo-governance content
+- stock cooling architecture with no action context
+- symptom-first overheating diagnosis
+- brand or donor selection as the primary topic
+- unrelated repair or upgrade workflows
 
-## Expected child branches
-- `coolant-flush/` for drain, refill, and coolant-service workflows
-- `cooling-system-refresh/` for hoses, clamps, cap, and related upkeep
-- `belt-and-fan-service/` for fan-drive and accessory-drive maintenance that supports cooling performance
+## Current child packages
+- [`cooling-system-refresh/overview.md`](cooling-system-refresh/overview.md) — narrow starter package for baseline cooling refresh work
+
+## Cross-domain routes
+- Stock cooling baseline: [`vehicle/systems/cooling/overview.md`](../../../vehicle/systems/cooling/overview.md)
+- Cooling diagnostics: [`diagnostics/cooling/index.md`](../../../diagnostics/cooling/index.md)
+- Cooling sourcing tradeoffs: [`sourcing/oem-vs-aftermarket/cooling/index.md`](../../../sourcing/oem-vs-aftermarket/cooling/index.md)
+
+## Next likely child packages
+- `coolant-flush/`
+- `belt-and-fan-service/`
+- `heater-hose-and-clamp-renewal/`

@@ -21,4 +21,5 @@ Use this branch for condition assessment, pre-purchase review, and validation ch
 ## Child branches
 - [`baseline-condition/index.md`](baseline-condition/index.md) — Condition assessment for a stock or unknown-condition XJ.
 - [`pre-purchase/index.md`](pre-purchase/index.md) — Inspection workflows for evaluating a vehicle before purchase.
+- [`pre-swap/index.md`](pre-swap/index.md) — Baseline health checks before ECU, drivetrain, or other major swap work.
 - [`post-work-validation/index.md`](post-work-validation/index.md) — Validation checks after service, repair, upgrade, or swap work.

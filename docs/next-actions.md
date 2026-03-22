@@ -1,206 +1,123 @@
 # Next Actions
 
 ## Goal
-Prioritized follow-up work to make the retooled repo easier for agents to navigate and easier to scale.
+Track the next bounded structural work now that the broad reframe, scaffold, and front-door cleanup are already in place.
 
-## Immediate fixes
+This file should prefer:
+- small navigation and governance hardening
+- disciplined split plans for mixed legacy files
+- backlog-ready branch packages over ad hoc expansion
 
-### 1. Unify repo identity at all front doors
-Update these paths first:
-- `README.md`
-- `swap/README.md`
-- `swap/index.md`
-- `vehicle/README.md`
-- `agents/assistant/index.md`
-- `agents/book/index.md`
-- `book/outline.md`
+## Recently completed and now considered stable
+These no longer need to sit at the top of the queue:
+- front-door repo identity alignment
+- initial `swap/` transitional framing in live routing
+- first pass of agent scaffolding alignment
+- README vs `index.md` operating policy
+- documenting `humans/` as temporary process-artifact storage
 
-Target outcome:
-- every entrypoint describes the repo as a **Jeep XJ technical knowledge system**
-- `swap/` is described as a **transitional canonical ECU branch**, not the repo center
-- agent routers classify by question type first
+Current convention reference:
+- `docs/transition-status.md`
+- `docs/post-cleanup-validation.md`
 
-### 2. Replace template router language with branch-specific routing guidance
-First pass targets:
-- all `work/**/index.md`
-- all `diagnostics/*/index.md`
-- `sourcing/connectors/index.md`
-- `work/swaps/ecu/index.md`
+## Highest-priority next work
 
-Target outcome:
-- no more generic example child names like `headliner-repair/` inside unrelated branches
-- no more repeated generic diagnostic examples that do not fit the branch
-- each router advertises likely real children for that branch
-
-### 3. Mark `swap/` as compatibility-first in live routing
-Update:
-- `swap/index.md`
-- `swap/README.md`
-- `work/index.md`
-- `work/swaps/ecu/index.md`
-
-Target outcome:
-- new work routes point to `work/swaps/ecu/`
-- legacy swap files stay valid but clearly transitional
-
-### 4. Decide and document the status of `humans/`
-Pick one:
-- keep and document it as temporary process-artifact storage, or
-- relocate/archive it under a documented meta root
-
-Target outcome:
-- no undocumented top-level roots remain
-
-## Medium-term structural improvements
-
-### 1. Execute the first split wave for mixed-purpose legacy files
-Highest-value split targets:
+### 1. Execute the first remaining mixed-purpose split wave
+Focus on the highest-distortion legacy canon that still teaches the old structure by example:
+- `vehicle/engine.md`
 - `vehicle/trans/aw4.md`
 - `vehicle/trans/manual.md`
-- `vehicle/engine.md`
 - `vehicle/era1/diagnostics.md`
 - `vehicle/era2/diagnostics.md`
 - `vehicle/era3/diagnostics.md`
 - `vehicle/era1/wiring.md`
 - `vehicle/era2/wiring.md`
 - `vehicle/era3/wiring.md`
-- `swap/wiring/connectors/index.md` and connector family branches
+- `swap/wiring/connectors/index.md` and related connector-family branches
 
 Target outcome:
-- stock facts move toward `vehicle/systems/`
-- diagnostics move into `diagnostics/`
-- pre-swap inspection content moves into `work/inspections/`
-- connector decision content moves toward `sourcing/connectors/`
-- swap procedure content remains in `swap/` or moves into `work/swaps/ecu/` as appropriate
+- stock facts migrate toward `vehicle/systems/`
+- diagnostic logic migrates toward `diagnostics/`
+- inspection/pre-swap workflow lands under `work/inspections/`
+- sourcing-style connector choice content lands under `sourcing/connectors/`
+- `swap/` keeps only the execution logic that still truly belongs there
 
-### 2. Establish a single README/index policy
-Needed because current repo navigation is split.
+### 2. Continue router hardening where scaffold language still dominates
+Remaining weak spots are mostly not wrong, but still too generic to be strong local routers.
 
-Recommended policy:
-- `index.md` is canonical router
-- `README.md` is optional lightweight human intro only
-- README files must never contradict `index.md`
+Primary sweep targets:
+- scaffold-light `work/**/index.md` files
+- scaffold-light `diagnostics/*/index.md` files
+- scaffold-light `sourcing/**/index.md` files that still advertise expected branches more than real branch shape
 
-### 3. Add a short transition-status or decision-register file
-Create a lightweight governance note that records:
-- migration decisions already locked
-- migration decisions still provisional
-- path conventions currently in force
+Target outcome:
+- each router advertises branch-true child packages or symptom families
+- generic compatibility boilerplate is reduced where it adds little signal
+- local routers become trustworthy enough to guide cold-start agents without broad repo reads
 
-### 4. Finish the live migration bridge into `work/swaps/ecu/`
-Medium-term path work:
-- strengthen `work/swaps/ecu/` as the preferred destination
-- convert `swap/` into redirect-compatible routing over time
-- avoid new conceptual growth under `swap/` except where migration explicitly requires it
+### 3. Strengthen the live bridge into `work/swaps/ecu/`
+Current bridging works, but it is still mostly a routing shell.
 
-## First high-value content branches to build out
+Next work:
+- tighten cross-links between `work/swaps/ecu/` and the active `swap/` tree
+- move or mirror only the routing/value-add material that clarifies the target branch
+- avoid conceptual growth under `swap/` unless the change is explicitly part of ECU execution canon
 
-These are the best first content packages because they improve platform usefulness fast and validate the new architecture.
+Target outcome:
+- `work/swaps/ecu/` becomes the obvious place to start
+- `swap/` behaves more like a compatibility-preserving execution branch
 
-### 1. Stock baselines that unlock many downstream branches
-Build first:
-- `vehicle/systems/cooling/`
-- `vehicle/systems/brakes/`
-- `vehicle/systems/charging-starting/`
-- `vehicle/systems/fuel/`
+## Best next branch packages to harden
+These branches are mature enough to justify deliberate hardening instead of more raw scaffolding.
+
+### Stock baseline branches
 - `vehicle/systems/transmission/` with AW4 and manual leaves
 - `vehicle/systems/axles/`
+- expansion around existing `vehicle/systems/cooling/`, `brakes/`, `charging-starting/`, and `fuel/`
 
-Why:
-- these support maintenance, diagnostics, sourcing, and upgrade work
-- they reduce dependence on legacy swap-support phrasing
+### Diagnostics branches
+- `diagnostics/brakes/` starter leaves for soft pedal, pull, and vibration
+- `diagnostics/driveline/` starter vibration-isolation leaves
+- `diagnostics/ignition/` or `diagnostics/engine/` crank-no-start starter leaves
 
-### 2. Common maintenance branches
-Build first:
-- `work/maintenance/cooling/`
-- `work/maintenance/brakes/`
-- `work/maintenance/charging-starting/`
-- `work/maintenance/fuel/`
-- `work/maintenance/transmission/`
-- `work/maintenance/axles/`
-
-Why:
-- broadest owner value
-- helps prove the repo is not swap-only
-
-### 3. High-frequency diagnostic leaves
-Build first:
-- `diagnostics/ignition/` or `diagnostics/engine/` for crank-no-start
-- `diagnostics/cooling/overheating-at-idle.md`
-- `diagnostics/charging-and-starting/low-charging-voltage.md`
-- `diagnostics/fuel/fuel-pump/no-prime.md`
-- `diagnostics/brakes/` for pull, soft pedal, and vibration starters
-- `diagnostics/driveline/` for vibration isolation starter
-
-Why:
-- high reader impact
-- strong proof that diagnostics is now a first-class domain
-
-### 4. High-friction sourcing branches
-Build first:
-- `sourcing/connectors/` from split connector content
+### Sourcing branches
+- `sourcing/connectors/` beyond the first pigtail decision leaf
+- `sourcing/interchange/electrical/`
 - `sourcing/interchange/axles/`
 - `sourcing/interchange/brakes/`
-- `sourcing/interchange/electrical/`
-- `sourcing/oem-vs-aftermarket/cooling/`
 
-Why:
-- reduces wrong-part drift
-- supports both stock and modified workflows
+### Work branches
+- `work/maintenance/brakes/`
+- `work/maintenance/fuel/`
+- `work/maintenance/transmission/`
+- one visible non-ECU upgrade or repair package such as:
+  - `work/upgrades/brakes/wj-brake-upgrade/`
+  - `work/upgrades/driveline/sye/`
+  - `work/repairs/interior/headliner-repair/`
 
-### 5. One or two visible non-ECU upgrade/repair packages
-Best candidates:
-- `work/upgrades/brakes/wj-brake-upgrade/`
-- `work/upgrades/driveline/sye/`
-- `work/repairs/interior/headliner-repair/`
+## Items to keep in backlog, not improvise during routine maintenance
+- final long-term home for shared helper prompts under `agents/`
+- broader multi-deliverable structure inside `book/`
+- final `vehicle/years/` convention for year-specific files like 1996 notes
+- final split between ECU-specific and general `work/setup-and-calibration/` content
+- any broad evidence-sensitive content expansion that needs research intake first
 
-Why:
-- proves the broader architecture in actual content, not just scaffold
+## Deprecated patterns to continue blocking
+Do not reintroduce these during ordinary growth:
+- treating `swap/` as the default start for any technical question
+- adding new mixed-purpose legacy files near the root of a domain
+- letting README files drift away from branch `index.md` routers
+- using `humans/` as a durable content root
+- copying technical truth into `agents/`, `docs/`, `book/`, or `skillbuilding/`
+- broadening scaffold routers with filler examples that are not branch-true
 
-## Deprecated patterns to stop using
-
-Stop using these patterns for new work:
-- treating `swap/` as the default first stop for every technical question
-- telling agents to always load `vehicle/engine.md`
-- leaving generic scaffold examples in branch routers
-- writing new mixed-purpose files that blend stock facts, procedure, diagnostics, and sourcing
-- growing root or near-root legacy files instead of splitting into deep branches
-- letting README files carry a different routing model than `index.md` or `AGENTS.md`
-- using undocumented top-level roots without governance coverage
-- keeping project-specific book artifacts at the root of `book/` if they are not general presentation rules
-
-## Unresolved open questions
-
-### 1. What is the final canonical policy for README vs `index.md`?
-This should be decided soon to avoid navigation drift.
-
-### 2. Where should project-specific human deliverables live inside `book/`?
-`book/outline.md` is the immediate example.
-
-### 3. What is the final long-term home for shared helper prompts in `agents/`?
-Current top-level helper files still exist, but their future placement is unresolved.
-
-### 4. What is the final convention for year-specific files inside `vehicle/years/`?
-Especially:
-- `vehicle/years/1996-notes.md` vs `vehicle/years/era3/1996-notes.md`
-
-### 5. Which setup/calibration topics should remain ECU-swap-specific, and which should eventually generalize under `work/setup-and-calibration/`?
-
-### 6. Should `humans/` remain a permanent root?
-If yes, it needs explicit governance.
-If no, it should be archived or relocated.
-
-## Recommended order of execution
-
-1. unify entrypoint identity
-2. fix generic routers
-3. document `humans/` status and README/index policy
-4. split the highest-distortion mixed legacy files
-5. strengthen `work/swaps/ecu/` as the preferred active target
-6. build the first stock baseline, maintenance, diagnostics, and sourcing packages
-7. then expand into broader upgrades, repairs, restoration, and non-ECU swap branches
+## Recommended execution order
+1. split the highest-distortion mixed legacy files
+2. harden the weakest remaining routers
+3. strengthen `work/swaps/ecu/` as the preferred live bridge
+4. harden the next small branch packages in stock baselines, diagnostics, sourcing, and work
+5. only then expand into broader coverage families
 
 ## Bottom line
-The next highest-value work is to **finish the navigation and migration surface**, not to add many more folders.
-
-Once the front doors, routers, and first split wave are cleaned up, new content can scale much more safely and the repo will read clearly as a platform-wide Jeep XJ system.
+The repo does not need another redesign pass.
+It needs continued hardening of the live migration surface, especially where old mixed files and scaffold-light routers still encourage drift.

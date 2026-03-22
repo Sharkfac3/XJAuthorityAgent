@@ -20,6 +20,8 @@ Factory transmission families, control differences, and stock operating baseline
 
 ## Expected child branches
 - `overview.md` — local branch router and stock baseline summary
+- `aw4/overview.md` for the factory AW4 automatic baseline
+- `manual/overview.md` for factory manual-transmission baseline content
 - `year-changes.md` when time-based splits become substantial
 - `variants.md` when multiple stock families need separation
 - scope-specific leaves such as `compatibility.md`, `specs.md`, or named component-family folders

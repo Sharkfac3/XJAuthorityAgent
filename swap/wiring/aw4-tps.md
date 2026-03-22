@@ -31,4 +31,7 @@ The open source ECU TPS input is high impedance — sharing the signal with the 
 - Kickdown not functioning
 
 ## Torque converter lockup wiring
-The TCC (torque converter clutch) solenoid is a separate circuit from the TPS signal. It receives a ground-side command from the ECU/TCM to engage lockup. See `vehicle/trans/aw4.md` for lockup control options with the open source ECU.
+The TCC (torque converter clutch) solenoid is a separate circuit from the TPS signal. It receives a ground-side command from the ECU/TCM to engage lockup.
+
+For stock AW4 baseline and control relationships, see `vehicle/systems/transmission/aw4/overview.md`.
+For the target-state work-branch route during migration, see `work/swaps/ecu/integration/aw4-tps.md`.

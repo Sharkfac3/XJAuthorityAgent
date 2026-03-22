@@ -19,6 +19,7 @@ Engine mechanical-condition and running-condition fault isolation.
 - unrelated system diagnostics
 
 ## Expected child branches
+- `era3-control-system-triage.md` for 1996–2001 OBD-II code-first engine-management diagnosis
 - `low-compression.md` for mechanical-health diagnosis
 - `oil-consumption.md` for internal-loss or leak-path troubleshooting
 - `mechanical-noise.md` for knock, tick, or valvetrain-noise isolation

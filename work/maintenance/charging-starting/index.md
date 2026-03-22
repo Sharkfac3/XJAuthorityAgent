@@ -4,21 +4,29 @@
 Route battery, cable, starter, and charging-system upkeep.
 
 ## Scope
-Battery, cable, starter, and charging-system upkeep.
+Use this branch when the main question is preventive service or baseline upkeep rather than fault isolation.
 
 ## What belongs here
-- concrete job folders and procedure leaves for this branch
-- local compatibility notes when year, drivetrain, ABS, or donor differences materially change the work
-- required-parts, procedure, and validation leaves when the topic grows beyond a single page
-- narrow cross-links to `vehicle/`, `diagnostics/`, or `sourcing/` when support context is needed
+- battery and cable upkeep
+- ground-service work
+- belt and charging-system baseline checks
+- maintenance tasks that reduce no-crank and low-voltage failures
 
 ## What does not belong here
-- stock baseline facts with no action context
-- symptom-first troubleshooting trees
-- sourcing-only comparisons as the primary topic
-- unrelated work classes or repo-governance content
+- stock architecture with no action context
+- symptom-first no-crank or low-voltage diagnosis
+- upgrade or donor selection as the primary topic
+- unrelated chassis electrical work
 
-## Expected child branches
-- `battery-service/` for terminal cleaning, hold-downs, and battery upkeep
-- `cable-and-ground-service/` for recurring cable and ground maintenance
-- `belt-and-charging-checks/` for alternator-drive and charging-system service basics
+## Current child packages and leaves
+- [`cable-and-ground-service/overview.md`](cable-and-ground-service/overview.md) — narrow starter package for recurring cable and ground upkeep
+
+## Cross-domain routes
+- Stock charging and starting baseline: [`vehicle/systems/charging-starting/overview.md`](../../../vehicle/systems/charging-starting/overview.md)
+- Charging and starting diagnostics: [`diagnostics/charging-and-starting/index.md`](../../../diagnostics/charging-and-starting/index.md)
+- Electrical sourcing and interchange: [`sourcing/interchange/electrical/index.md`](../../../sourcing/interchange/electrical/index.md)
+
+## Next likely child packages
+- `battery-service/`
+- `belt-and-charging-checks/`
+- `starter-cable-refresh/`

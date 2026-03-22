@@ -35,6 +35,7 @@ skillbuilding/  repo-building workflows and audits
 vehicle/        canonical stock XJ fact scaffold plus legacy era content
 work/           maintenance, repairs, restoration, upgrades, swaps, inspections, setup
 swap/           legacy-but-still-canonical ECU swap branch during migration
+humans/         temporary process-artifact prompt archive, not a canonical content root
 ```
 
 ## How to read the scaffold

@@ -4,21 +4,29 @@
 Route XJ fuel-delivery symptom trees and test-path troubleshooting.
 
 ## Scope
-Fuel-delivery symptom trees and test-path troubleshooting.
+Use this branch when the main question is whether fuel delivery is missing, weak, or otherwise contributing to a no-start or poor-running complaint.
 
 ## What belongs here
-- symptom-based leaves for this system or symptom family
-- component-specific subfolders when one problem area grows into multiple test paths
-- verification logic and follow-up checks after a likely fault is identified
-- local compatibility notes only when year, transmission, ABS, or configuration changes diagnosis materially
+- symptom-based fuel leaves
+- relay, power, pressure, and delivery fault isolation
+- verification logic after a likely fuel-side cause is found
+- local compatibility notes only when the fuel diagnostic path truly changes
 
 ## What does not belong here
-- full replacement or upgrade procedures
-- stock-only reference material with no symptom context
-- donor or buying guidance as the primary topic
-- unrelated system diagnostics
+- full replacement procedures
+- stock-only reference with no symptom context
+- donor or part-brand recommendations as the primary topic
+- unrelated ignition or mechanical diagnosis
 
-## Expected child branches
-- `no-prime.md` for pump-command and prime-path diagnosis
-- `low-fuel-pressure.md` for supply, regulator, or restriction faults
-- `rich-or-lean-running.md` for mixture-related fuel-side isolation
+## Current child leaves
+- [`no-prime.md`](no-prime.md) — starter leaf for pump-command and prime-path faults
+
+## Next likely child leaves
+- `low-fuel-pressure.md`
+- `rich-or-lean-running.md`
+- `fuel-leak-or-odor.md`
+
+## Supporting canon
+- Fuel maintenance branch: [`work/maintenance/fuel/index.md`](../../work/maintenance/fuel/index.md)
+- Fuel repair branch: [`work/repairs/fuel/index.md`](../../work/repairs/fuel/index.md)
+- Engine diagnostics branch: [`diagnostics/engine/index.md`](../engine/index.md)

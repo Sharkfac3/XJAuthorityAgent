@@ -53,6 +53,7 @@ For repo-entry guidance and file placement rules, load these in order when doing
 - `agents/` — agent behavior and routing only
 - `docs/` — governance, taxonomy, naming, and migration rules
 - `skillbuilding/` — repo-building audits, backlog, research intake, and hardening
+- `humans/` — temporary process-artifact prompt archive; not a canonical content domain
 
 ## Classify the task first
 Ask these questions in order:

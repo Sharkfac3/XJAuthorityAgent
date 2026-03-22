@@ -3,10 +3,10 @@
 Home for the Book agent.
 
 ## Purpose
-The Book agent turns the central XJ markdown repository into reader-facing book content.
+The Book agent turns canonical repo content into reader-facing material while staying aware of the broader domain-first repo architecture.
 
 ## Entrypoint
-- `index.md`
+- `index.md` — canonical router
 
 ## Supporting legacy prompts
 - `../writer.md`
@@ -15,6 +15,10 @@ The Book agent turns the central XJ markdown repository into reader-facing book 
 - `../wiring.md`
 - `../tuning.md`
 
+## Note
+This README is a lightweight mirror.
+Use `index.md` for routing behavior.
+
 ## Rule
-The Book agent consumes canonical content from `vehicle/`, `swap/`, and `book/`.
+The Book agent consumes canonical content from `vehicle/`, `work/`, `diagnostics/`, `sourcing/`, current `swap/`, and `book/` as appropriate.
 It does not store Jeep facts here.

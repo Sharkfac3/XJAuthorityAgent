@@ -27,6 +27,7 @@ ECU swaps remain an important branch, but they are no longer the repo's defining
 - `agents/` — behavior and routing only
 - `docs/` — governance, taxonomy, and migration notes only
 - `skillbuilding/` — repo-building workflows, audits, intake, and hardening
+- `humans/` — temporary process-artifact prompt archive from the retooling sequence; not a canonical technical root
 
 ## Notes
 - Classify the question type before loading content.

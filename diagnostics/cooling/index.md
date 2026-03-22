@@ -4,21 +4,29 @@
 Route XJ cooling-system symptom diagnosis and fault isolation.
 
 ## Scope
-Cooling-system symptom diagnosis and fault isolation.
+Use this branch when the main question is what is causing a cooling symptom and what to test next.
 
 ## What belongs here
-- symptom-based leaves for this system or symptom family
-- component-specific subfolders when one problem area grows into multiple test paths
-- verification logic and follow-up checks after a likely fault is identified
-- local compatibility notes only when year, transmission, ABS, or configuration changes diagnosis materially
+- symptom-based cooling leaves
+- fault-isolation paths for airflow, circulation, loss, and heat-rejection problems
+- verification logic after a likely cause is found
+- local compatibility notes only when the cooling symptom path truly changes
 
 ## What does not belong here
-- full replacement or upgrade procedures
-- stock-only reference material with no symptom context
-- donor or buying guidance as the primary topic
-- unrelated system diagnostics
+- full replacement procedures
+- stock-only reference with no symptom context
+- part-brand recommendations as the primary topic
+- unrelated engine or electrical troubleshooting
 
-## Expected child branches
-- `overheating-at-idle.md` for low-speed heat-control problems
-- `coolant-loss.md` for external leak, internal loss, or overflow issues
-- `runs-cold-or-no-heat.md` for thermostat and circulation-related symptoms
+## Current child leaves
+- [`overheating-at-idle.md`](overheating-at-idle.md) — low-speed heat-control diagnosis starter
+
+## Next likely child leaves
+- `coolant-loss.md`
+- `runs-cold-or-no-heat.md`
+- `overheating-at-speed.md`
+
+## Supporting canon
+- Stock cooling baseline: [`vehicle/systems/cooling/overview.md`](../../vehicle/systems/cooling/overview.md)
+- Cooling maintenance branch: [`work/maintenance/cooling/index.md`](../../work/maintenance/cooling/index.md)
+- Cooling repair branch: [`work/repairs/cooling/index.md`](../../work/repairs/cooling/index.md)

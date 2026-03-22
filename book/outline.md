@@ -4,6 +4,9 @@
 This file defines the current ECU swap book deliverable inside the broader Jeep XJ technical knowledge system.
 It does not define the identity or full scope of the repository.
 
+Use this outline when working on the current ECU-swap-book deliverable.
+For other writing tasks, start from `AGENTS.md` and the owning technical domain before deciding whether this outline is relevant.
+
 ## Title
 *Ditch the Black Box: A DIY Guide to Open Source ECU Swaps for the Jeep Cherokee XJ*
 
@@ -58,12 +61,16 @@ It does not define the identity or full scope of the repository.
 - D: Glossary
 
 ## File linkage
-This deliverable currently maps to ECU swap and stock-baseline knowledge base files:
+This deliverable currently maps to broader repo domains plus active transitional ECU swap paths:
 - Chapters 2–3 → `vehicle/era*/overview.md`
-- Chapter 11 → `swap/wiring/connectors/`
+- Chapters 6–8 → stock-baseline and inspection support from `vehicle/` and, as it matures, `work/inspections/`
+- Chapter 9 → `swap/ecu-selection/requirements.md` and related selection files
+- Chapter 11 → `swap/wiring/connectors/` now, with future sourcing-facing material expected under `sourcing/connectors/`
 - Chapter 12 → `swap/wiring/grounds.md`
 - Chapters 13–15 → `vehicle/era*/wiring.md`
 - Chapter 16 → `swap/wiring/harness.md`
 - Chapter 17 → `swap/ecu-selection/iac-strategy.md`
 - Chapter 18 → `swap/wiring/aw4-tps.md` + `vehicle/trans/aw4.md`
-- Chapters 22–26 → `swap/tuning/`
+- Chapter 27 → current diagnostics material in `swap/` and `vehicle/era*/diagnostics.md`, with future migration toward `diagnostics/`
+- Appendix C → current recommendations may span `swap/` and future `sourcing/` branches
+- Chapters 22–26 and 28 → `swap/tuning/`
