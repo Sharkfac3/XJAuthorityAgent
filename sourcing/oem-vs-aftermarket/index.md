@@ -1,26 +1,19 @@
-# Oem Vs Aftermarket Index
+# OEM Vs Aftermarket Index
 
 ## Purpose
-Provide a routing stub for XJ oem vs aftermarket decisions.
+Route XJ replacement-part tradeoffs between OEM, aftermarket, reman, and reproduction choices.
 
-## Scope
-Selection tradeoffs between OEM, aftermarket, reman, and reproduction options.
+## Use this branch when
+The fit is already understood and the real decision is which quality tier or part-source strategy to prefer.
 
-## What belongs here
-- decision support for this sourcing class
-- practical option comparisons
-- local compatibility or fitment notes tied to acquisition decisions
-- links to narrower donor, kit, connector, or part-family branches
+## First-hop loading path
+- Engine-system replacement parts → [`engine/index.md`](engine/index.md)
+- Cooling-system parts → [`cooling/index.md`](cooling/index.md)
+- Electrical-system parts → [`electrical/index.md`](electrical/index.md)
+- Brake-system parts → [`brakes/index.md`](brakes/index.md)
+- Body and interior replacement parts → [`body-interior/index.md`](body-interior/index.md)
 
-## What does not belong here
-- full service or installation procedures
-- stock-only fact storage with no decision context
-- symptom trees
-- agent or governance content
-
-## Child branches
-- [`engine/index.md`](engine/index.md) — Selection tradeoffs for engine-system replacement parts.
-- [`cooling/index.md`](cooling/index.md) — Selection tradeoffs for cooling-system parts.
-- [`electrical/index.md`](electrical/index.md) — Selection tradeoffs for electrical-system parts.
-- [`brakes/index.md`](brakes/index.md) — Selection tradeoffs for brake-system parts.
-- [`body-interior/index.md`](body-interior/index.md) — Selection tradeoffs for body and interior replacement parts.
+## Boundary links
+- Interchange and fitment decisions first: [`../interchange/index.md`](../interchange/index.md)
+- Donor-first strategy: [`../donor-vehicles/index.md`](../donor-vehicles/index.md)
+- Wear-item selection: [`../wear-items/index.md`](../wear-items/index.md)

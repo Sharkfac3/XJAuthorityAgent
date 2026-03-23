@@ -6,13 +6,13 @@
 - Reads: Toothed ring on flywheel (manual) or flexplate (automatic)
 - Pattern: **Jeep 18-2-2-2** — 18 base teeth with three evenly-spaced gaps at 120° apart
 - Connector: Round-pin Packard (1991–1992) / Flat-pin Packard (1993–1995)
-- See: `swap/wiring/connectors/packard-56/cps.md`
+- See: `work/swaps/ecu/wiring/connectors/packard-56/cps.md`
 
 ## Cam position sensor
 - Type: Hall effect — active, square wave output (0V / 5V)
 - Location: Inside the distributor body (sync pulse generator / stator)
 - Purpose: Required — 18-2-2-2 crank pattern is radially symmetrical and cannot determine engine phase alone
-- See: `swap/wiring/connectors/packard-56/cam.md`
+- See: `work/swaps/ecu/wiring/connectors/packard-56/cam.md`
 
 ## Distributor
 - Conventional cap-and-rotor unit

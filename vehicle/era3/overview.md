@@ -32,7 +32,8 @@ OBD-II compliance is the primary change from Era 2. The JTEC adds downstream O2 
 | O2 sensors (upstream + downstream) | `vehicle/era3/sensors/o2.md` |
 | IAC valve | `vehicle/era3/sensors/iac.md` |
 | Wiring specifics | `vehicle/era3/wiring.md` |
-| Diagnostics / pre-swap check | `vehicle/era3/diagnostics.md` |
+| Diagnostics | `diagnostics/engine/era3-control-system-triage.md` |
+| Pre-swap health check | `work/inspections/pre-swap/era3-health-check.md` |
 
 ## Common failures
 - JTEC capacitor failure (same aging issue as SBEC)

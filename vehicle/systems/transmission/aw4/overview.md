@@ -38,8 +38,8 @@ In stock form, the converter clutch is part of normal highway-speed operation to
 If the vehicle is getting an aftermarket or open-source ECU, do not use this file as the wiring procedure.
 
 Use:
-- `swap/wiring/aw4-tps.md` for the current live ECU-swap wiring procedure
-- `work/swaps/ecu/integration/aw4-tps.md` for the target-state integration route during migration
+- `work/swaps/ecu/integration/aw4-tps.md` for ECU-swap TPS-sharing procedure
+- `work/swaps/ecu/index.md` for the full ECU-swap workflow
 
 ## Transition note
 This file is the new stock-facts home for AW4 baseline content split out of `vehicle/trans/aw4.md`.

@@ -5,7 +5,7 @@
 - Location: Intake manifold (directly mounted)
 - Output: ~1.0V at high vacuum (idle) → ~4.5V at atmospheric (WOT)
 - Reference voltage: 5V
-- Connector: Metri-Pack 150 3-pin — see `swap/wiring/connectors/metri-pack/mp150-3pin.md`
+- Connector: Metri-Pack 150 3-pin — see `work/swaps/ecu/wiring/connectors/metri-pack/mp150-3pin.md`
 
 ## Voltage reference points
 | Condition | MAP kPa | Approx voltage |

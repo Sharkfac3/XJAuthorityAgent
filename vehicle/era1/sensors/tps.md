@@ -4,7 +4,7 @@
 - Type: Potentiometer
 - Output: 0.5V closed throttle → 4.5V wide open throttle (WOT)
 - Reference voltage: 5V
-- Connector: Renix-native — see `swap/wiring/connectors/renix-native/tps.md`
+- Connector: Renix-native — see `work/swaps/ecu/wiring/connectors/renix-native/tps.md`
 - Note: Some Renix TPS units have an additional idle switch contact (4-pin). Confirm with FSM for specific year.
 
 ## Testing

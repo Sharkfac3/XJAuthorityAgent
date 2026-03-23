@@ -2,7 +2,7 @@
 
 ## Specs
 - Type: NTC (Negative Temperature Coefficient) thermistor — resistance decreases as temp increases
-- Connector: Renix-native 2-pin — see `swap/wiring/connectors/renix-native/cts.md`
+- Connector: Renix-native 2-pin — see `work/swaps/ecu/wiring/connectors/renix-native/cts.md`
 - Location: Intake manifold, near thermostat housing
 
 ## Resistance curve (Renix-specific)

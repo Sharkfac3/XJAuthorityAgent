@@ -14,7 +14,7 @@
 
 ## Connector note
 EV1 connectors age poorly. Locking tabs become brittle. Inspect all 6 before reuse.
-See `swap/wiring/connectors/ev1-bosch/injectors.md` for release procedure.
+See `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md` for release procedure.
 
 ## TunerStudio / ECU swap reference
 - Enter flow rate as **~21 lb/hr** at 39 psi for Required Fuel calculation

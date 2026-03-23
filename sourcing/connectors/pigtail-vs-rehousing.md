@@ -29,17 +29,17 @@ It does not teach the full repinning or splice procedure.
 
 ## Renix-era caution
 Renix-native connector families are a common case where repair choices get harder.
-Before ordering service parts, load the legacy family canon here:
-- [`swap/wiring/connectors/renix-native/overview.md`](../../swap/wiring/connectors/renix-native/overview.md)
-- [`swap/wiring/connectors/renix-native/cts.md`](../../swap/wiring/connectors/renix-native/cts.md)
-- [`swap/wiring/connectors/renix-native/map.md`](../../swap/wiring/connectors/renix-native/map.md)
-- [`swap/wiring/connectors/renix-native/tps.md`](../../swap/wiring/connectors/renix-native/tps.md)
+Before ordering service parts, load the family canon here:
+- [`../../work/swaps/ecu/wiring/connectors/renix-native/overview.md`](../../work/swaps/ecu/wiring/connectors/renix-native/overview.md)
+- [`../../work/swaps/ecu/wiring/connectors/renix-native/cts.md`](../../work/swaps/ecu/wiring/connectors/renix-native/cts.md)
+- [`../../work/swaps/ecu/wiring/connectors/renix-native/map.md`](../../work/swaps/ecu/wiring/connectors/renix-native/map.md)
+- [`../../work/swaps/ecu/wiring/connectors/renix-native/tps.md`](../../work/swaps/ecu/wiring/connectors/renix-native/tps.md)
 
 Those files already show several cases where modern sensor substitution or complete pigtail replacement is more realistic than preserving a brittle original shell.
 
 ## Metri-Pack, EV, and other serviceable families
 For later connector families that still have widely available service parts, rebuilding the original shell often stays attractive when the body itself is still healthy.
-Start with the family overview under [`swap/wiring/connectors/index.md`](../../swap/wiring/connectors/index.md), then decide whether terminals-and-seals service is realistic or whether a pigtail is still the cleaner repair.
+Start with the family overview under [`../../work/swaps/ecu/wiring/connectors/index.md`](../../work/swaps/ecu/wiring/connectors/index.md), then decide whether terminals-and-seals service is realistic or whether a pigtail is still the cleaner repair.
 
 ## How to make the decision quickly
 Ask these questions in order:
@@ -52,9 +52,9 @@ Ask these questions in order:
 If several answers are no, a pigtail is usually the safer buy.
 
 ## Route after the decision
-- If you are preserving the stock harness and shell, continue to [`work/restoration/wiring/index.md`](../../work/restoration/wiring/index.md) for restoration-side work.
-- If you need connector-family identification first, continue to [`swap/wiring/connectors/index.md`](../../swap/wiring/connectors/index.md).
-- If the repair is now about donor or interchange choices, continue to [`sourcing/interchange/electrical/index.md`](../interchange/electrical/index.md).
+- If you are preserving the stock harness and shell, continue to [`../../work/restoration/wiring/index.md`](../../work/restoration/wiring/index.md) for restoration-side work.
+- If you need connector-family identification first, continue to [`../../work/swaps/ecu/wiring/connectors/index.md`](../../work/swaps/ecu/wiring/connectors/index.md).
+- If the repair is now about donor or interchange choices, continue to [`../interchange/electrical/index.md`](../interchange/electrical/index.md).
 
 ## Next likely child leaves
 - `terminal-and-seal-families.md`

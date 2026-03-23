@@ -1,28 +1,25 @@
 ---
-name: xj-swap-book
-description: Jeep XJ technical knowledge system router. Load for work in this repo, then read AGENTS.md and only the leaf files needed for the task.
+name: xj-authority-agent
+description: Jeep Cherokee XJ knowledgebase router. Read AGENTS.md, choose exactly one of the two agent roles, then load only the needed files.
 ---
 
 # XJ Authority Agent Skill
 
 ## Required first step
 - Read `AGENTS.md`.
-- Use it as the routing index.
-- Load only the files needed for the current task.
+- Choose exactly one role:
+  - `agents/expert.md`
+  - `agents/knowledgebase-builder.md`
+- Do not invent additional sub-agents or helper-agent roles.
+- Load only the narrowest files needed.
 
-## Canonical content roots
+## Canonical knowledge roots
 - `vehicle/`
 - `work/`
 - `diagnostics/`
 - `sourcing/`
-- `swap/` — current canonical ECU swap execution branch during migration
 - `book/`
-- `agents/`
 
-## Repo-building framework
-- Use `skillbuilding/` for audits, expansion planning, source intake, backlog work, and readiness review.
-- Do not treat `skillbuilding/` as canonical Jeep fact storage.
-
-## Pi-specific note
-- `.pi/skills/xj-swap-book/` and `.pi/skills/skillbuilding-framework/` are discovery wrappers.
-- The knowledge base and repo-building framework live at the repo root.
+## Routing rule
+- Jeep questions and informational writing requests go to the expert agent.
+- Repo cleanup, restructuring, audits, migrations, prompt-chain work, and knowledgebase buildout go to the knowledgebase-builder agent.

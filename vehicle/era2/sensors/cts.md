@@ -2,7 +2,7 @@
 
 ## Specs
 - Type: NTC thermistor
-- Connector: Metri-Pack 150 2-pin — see `swap/wiring/connectors/metri-pack/mp150-2pin.md`
+- Connector: Metri-Pack 150 2-pin — see `work/swaps/ecu/wiring/connectors/metri-pack/mp150-2pin.md`
 - Location: Intake manifold coolant passage
 
 ## Resistance curve (Chrysler — different from Renix)

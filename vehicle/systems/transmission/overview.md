@@ -1,27 +1,26 @@
 # Transmission Overview
 
 ## Purpose
-Provide a routing stub for stock XJ transmission facts.
+Route stock Jeep XJ transmission facts.
 
 ## Scope
 Factory transmission families, control differences, and stock operating baselines.
 
-## What belongs here
-- stock transmission architecture
-- factory component-family differences
-- year, era, package, or drivetrain splits that materially affect this system
-- links to narrower factual leaves as this branch grows
+## Use this branch for
+- stock automatic vs manual transmission identity
+- factory control relationships that affect wiring and behavior
+- year or family differences that matter before maintenance, diagnostics, or swap work
 
-## What does not belong here
+## Do not use this branch for
 - service or installation procedures
-- symptom-first diagnostics paths
-- donor-part buying advice
-- modified-state guidance except short pointers to the correct branch
+- symptom-first diagnostics
+- donor or purchasing guidance
+- ECU-swap execution steps beyond short pointers
 
-## Expected child branches
-- `overview.md` — local branch router and stock baseline summary
-- `aw4/overview.md` for the factory AW4 automatic baseline
-- `manual/overview.md` for factory manual-transmission baseline content
-- `year-changes.md` when time-based splits become substantial
-- `variants.md` when multiple stock families need separation
-- scope-specific leaves such as `compatibility.md`, `specs.md`, or named component-family folders
+## Load next
+- [`aw4/overview.md`](aw4/overview.md) — stock AW4 baseline, TCM/TPS relationship, and lockup context
+- [`manual/overview.md`](manual/overview.md) — factory manual-transmission families and stock control notes
+
+## Boundary note
+If the question is about modified-state ECU coexistence, route next to:
+- `work/swaps/ecu/integration/aw4-tps.md` for ECU-swap TPS-sharing procedure

@@ -19,10 +19,10 @@ Use this branch when the main question is what to test next in a no-crank, slow-
 - unrelated body-electrical troubleshooting
 
 ## Current child leaves
+- [`no-crank.md`](no-crank.md) — starter-engagement diagnosis starter
 - [`low-charging-voltage.md`](low-charging-voltage.md) — running-voltage diagnosis starter
 
 ## Next likely child leaves
-- `no-crank.md`
 - `slow-crank.md`
 - `battery-drain.md`
 

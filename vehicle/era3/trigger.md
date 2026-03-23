@@ -5,13 +5,13 @@
 - Location: Driver's side bellhousing
 - Reads: Toothed ring on flywheel (manual) or flexplate (automatic)
 - Pattern: **Jeep 18-2-2-2** — confirmed same as Era 2 across all sub-years (1996–2001)
-- Connector: Flat-pin Packard — see `swap/wiring/connectors/packard-56/cps.md`
+- Connector: Flat-pin Packard — see `work/swaps/ecu/wiring/connectors/packard-56/cps.md`
 
 ## Cam position sensor — 1996–1999 (distributor)
 - Type: Hall effect — active, square wave (0V / 5V)
 - Location: Inside the distributor body
 - Purpose: Required — 18-2-2-2 is symmetrical, cam sync needed for phase detection
-- See: `swap/wiring/connectors/packard-56/cam.md`
+- See: `work/swaps/ecu/wiring/connectors/packard-56/cam.md`
 
 ## Cam position sensor — 2000–2001 (coil rail)
 - Type: Hall effect

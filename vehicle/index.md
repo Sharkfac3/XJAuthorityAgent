@@ -1,10 +1,24 @@
 # Vehicle Index
 
 ## Purpose
-Route agents and humans to canonical stock Jeep XJ platform facts.
+Route the expert agent to canonical stock Jeep XJ facts.
 
-## Scope
-This branch is for stock vehicle truth: what the XJ came with, how factory systems are arranged, and what changed by year, era, package, or configuration.
+## Use this branch when
+The main question is about what the Jeep came with, how a factory system is arranged, or what changed by year, era, package, or configuration.
+
+## First-hop loading path
+- **Year or control-system split matters first** → [`vehicle/years/index.md`](years/index.md)
+- **Subsystem identity matters first** → [`vehicle/systems/index.md`](systems/index.md)
+- **Factory package or trim changes the answer** → [`vehicle/packages/index.md`](packages/index.md)
+- **A stock configuration matrix is needed** → [`vehicle/configurations/index.md`](configurations/index.md)
+- **A factual stock interchange limit is needed** → [`vehicle/interchange-baselines/index.md`](interchange-baselines/index.md)
+
+## High-value live stock files
+- Engine family baseline: [`vehicle/engine.md`](engine.md)
+- Era 1 / Renix baseline: [`vehicle/era1/overview.md`](era1/overview.md)
+- Era 2 / SBEC baseline: [`vehicle/era2/overview.md`](era2/overview.md)
+- Era 3 / JTEC baseline: [`vehicle/era3/overview.md`](era3/overview.md)
+- Transmission family baseline: [`vehicle/systems/transmission/overview.md`](systems/transmission/overview.md)
 
 ## What belongs here
 - year and era differences
@@ -19,13 +33,9 @@ This branch is for stock vehicle truth: what the XJ came with, how factory syste
 - donor buying advice or kit recommendations
 - agent operating instructions
 
-## Child branches
-- [`vehicle/years/index.md`](years/index.md) — time-based routing for era and model-year differences
-- [`vehicle/systems/index.md`](systems/index.md) — subsystem-based stock facts
-- [`vehicle/packages/index.md`](packages/index.md) — package-defined stock differences
-- [`vehicle/configurations/index.md`](configurations/index.md) — stock configuration matrices and baseline combinations
-- [`vehicle/interchange-baselines/index.md`](interchange-baselines/index.md) — factual stock interchange limits
-
-## Transition notes
-- Existing canonical era material remains valid under `vehicle/era1/`, `vehicle/era2/`, and `vehicle/era3/` until migration is complete.
-- Existing transmission baselines remain valid under `vehicle/trans/` until they are migrated into `vehicle/systems/transmission/`.
+## Boundary links
+- How to do the job: [`work/index.md`](../work/index.md)
+- What to test next: [`diagnostics/index.md`](../diagnostics/index.md)
+- What to buy or pull: [`sourcing/index.md`](../sourcing/index.md)
+- Aftermarket ECU conversion execution: [`../work/swaps/ecu/index.md`](../work/swaps/ecu/index.md)
+- Informational writing rules: [`book/README.md`](../book/README.md)

@@ -10,12 +10,12 @@ The engine harness passes through a multi-pin firewall connector — a known cor
 - Two ECU boxes (fuel ECU + ICM) — both must be addressed in the swap
 - Fuel pump relay supplies injector feed voltage through the ECU board (terminals C11 and D10) — the relay circuit is part of the injector power path, not separate
 - No ASD relay — ignition and fuel are on separate power paths
-- All sensor connectors are Renix-native proprietary — see `swap/wiring/connectors/renix-native/`
+- All sensor connectors are Renix-native proprietary — see `work/swaps/ecu/wiring/connectors/renix-native/`
 - CPS shield wire must be grounded separately to the block — do not omit
 - B+ latch relay keeps IAC powered at key-off for reset — replicate this behavior if using stock stepper IAC
 
 ## Grounds on Era 1
-Era 1 grounds are the oldest in scope and the most likely to be compromised. Run new dedicated grounds before attempting diagnosis of any electrical problem. See `swap/wiring/grounds.md`.
+Era 1 grounds are the oldest in scope and the most likely to be compromised. Run new dedicated grounds before attempting diagnosis of any electrical problem. See `work/swaps/ecu/wiring/grounds.md`.
 
 ## Fuse box
 Under-dash fuse block on all Era 1 vehicles. No under-hood PDC.

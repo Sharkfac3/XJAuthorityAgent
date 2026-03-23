@@ -24,7 +24,7 @@ JTEC is behind the glovebox. Slim silver/gray box — physically different from 
 - All three coil trigger wires must be routed to the open source ECU ignition outputs
 
 ## JTEC connector and adapter harness
-JTEC uses two connectors (C1 and C2). The pinout differs from the SBEC — do not use an SBEC pinout for a JTEC vehicle. See `swap/wiring/connectors/ecu-body/jtec.md`.
+JTEC uses two connectors (C1 and C2). The pinout differs from the SBEC — do not use an SBEC pinout for a JTEC vehicle. See `work/swaps/ecu/wiring/connectors/ecu-body/jtec.md`.
 
 ## Grounds
-Same ground refresh requirements as all eras. See `swap/wiring/grounds.md`. Head-to-firewall ground is a common failure point on all XJ years.
+Same ground refresh requirements as all eras. See `work/swaps/ecu/wiring/grounds.md`. Head-to-firewall ground is a common failure point on all XJ years.

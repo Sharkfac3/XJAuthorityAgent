@@ -1,26 +1,19 @@
 # Donor Vehicles Index
 
 ## Purpose
-Provide a routing stub for XJ donor vehicles decisions.
+Route donor-platform and pull-part sourcing decisions.
 
-## Scope
-Donor-platform sourcing and pull-part decision guidance.
+## Use this branch when
+The main question is which vehicle or donor family is worth targeting for a needed XJ part, assembly, or upgrade basis.
 
-## What belongs here
-- decision support for this sourcing class
-- practical option comparisons
-- local compatibility or fitment notes tied to acquisition decisions
-- links to narrower donor, kit, connector, or part-family branches
+## First-hop loading path
+- Drivetrain donors → [`drivetrain/index.md`](drivetrain/index.md)
+- Axle donors → [`axles/index.md`](axles/index.md)
+- Brake donors → [`brakes/index.md`](brakes/index.md)
+- Electrical donors → [`electrical/index.md`](electrical/index.md)
+- Body and interior donors → [`body-interior/index.md`](body-interior/index.md)
 
-## What does not belong here
-- full service or installation procedures
-- stock-only fact storage with no decision context
-- symptom trees
-- agent or governance content
-
-## Child branches
-- [`drivetrain/index.md`](drivetrain/index.md) — Donor-vehicle guidance for engine, transmission, and transfer-case projects.
-- [`axles/index.md`](axles/index.md) — Donor-vehicle guidance for axle projects.
-- [`brakes/index.md`](brakes/index.md) — Donor-vehicle guidance for brake-related projects.
-- [`electrical/index.md`](electrical/index.md) — Donor-vehicle guidance for electrical and charging upgrades.
-- [`body-interior/index.md`](body-interior/index.md) — Donor-vehicle guidance for body and interior restoration or repair.
+## Boundary links
+- Practical interchange by part family: [`../interchange/index.md`](../interchange/index.md)
+- OEM vs aftermarket comparison: [`../oem-vs-aftermarket/index.md`](../oem-vs-aftermarket/index.md)
+- Wear-item decisions when a donor is the wrong path: [`../wear-items/index.md`](../wear-items/index.md)

@@ -2,7 +2,7 @@
 
 ## Specs
 - Type: NTC thermistor — same resistance curve as Era 2 CTS
-- Connector: Metri-Pack 150 2-pin — see `swap/wiring/connectors/metri-pack/mp150-2pin.md`
+- Connector: Metri-Pack 150 2-pin — see `work/swaps/ecu/wiring/connectors/metri-pack/mp150-2pin.md`
 - Location: Air filter housing or intake tube
 
 ## Swap notes

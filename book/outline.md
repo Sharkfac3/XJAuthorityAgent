@@ -61,16 +61,16 @@ For other writing tasks, start from `AGENTS.md` and the owning technical domain 
 - D: Glossary
 
 ## File linkage
-This deliverable currently maps to broader repo domains plus active transitional ECU swap paths:
+This deliverable currently maps to broader repo domains plus ECU-swap execution paths under `work/`:
 - Chapters 2–3 → `vehicle/era*/overview.md`
 - Chapters 6–8 → stock-baseline and inspection support from `vehicle/` and, as it matures, `work/inspections/`
-- Chapter 9 → `swap/ecu-selection/requirements.md` and related selection files
-- Chapter 11 → `swap/wiring/connectors/` now, with future sourcing-facing material expected under `sourcing/connectors/`
-- Chapter 12 → `swap/wiring/grounds.md`
+- Chapter 9 → `work/swaps/ecu/ecu-selection/requirements.md` and related selection files
+- Chapter 11 → `work/swaps/ecu/wiring/connectors/`, with future sourcing-facing material expected under `sourcing/connectors/`
+- Chapter 12 → `work/swaps/ecu/wiring/grounds.md`
 - Chapters 13–15 → `vehicle/era*/wiring.md`
-- Chapter 16 → `swap/wiring/harness.md`
-- Chapter 17 → `swap/ecu-selection/iac-strategy.md`
-- Chapter 18 → `swap/wiring/aw4-tps.md` + `vehicle/trans/aw4.md`
-- Chapter 27 → current diagnostics material in `swap/` and `vehicle/era*/diagnostics.md`, with future migration toward `diagnostics/`
-- Appendix C → current recommendations may span `swap/` and future `sourcing/` branches
-- Chapters 22–26 and 28 → `swap/tuning/`
+- Chapter 16 → `work/swaps/ecu/wiring/harness-strategy.md`
+- Chapter 17 → `work/swaps/ecu/ecu-selection/iac-strategy.md`
+- Chapter 18 → `work/swaps/ecu/integration/aw4-tps.md` + `vehicle/systems/transmission/aw4/overview.md`
+- Chapter 27 → `diagnostics/engine/era3-control-system-triage.md` for Era 3 code-first diagnosis, plus narrower diagnostics branches as they mature
+- Appendix C → current recommendations may span `work/swaps/ecu/` and future `sourcing/` branches
+- Chapters 22–26 and 28 → `work/swaps/ecu/tuning-and-calibration/`

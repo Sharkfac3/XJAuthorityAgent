@@ -3,8 +3,20 @@
 ## Purpose
 Route year- and era-specific stock XJ facts.
 
-## Scope
-Use this branch when time-based differences are the main driver of the answer.
+## Use this branch when
+Time is the main reason the answer changes.
+
+## First-hop loading path
+- **1988–1990 Renix** → [`../era1/overview.md`](../era1/overview.md)
+- **1991–1995 SBEC / OBD-I** → [`../era2/overview.md`](../era2/overview.md)
+- **1996–2001 JTEC / OBD-II** → [`../era3/overview.md`](../era3/overview.md)
+- **1996 exception handling** → [`../era3/1996-notes.md`](../era3/1996-notes.md)
+
+## Use these files to answer
+- which control-system family the Jeep has
+- which wiring and sensor assumptions are safe for that era
+- which ignition architecture applies
+- whether a year-specific exception changes diagnostics, sourcing, or swap planning
 
 ## What belongs here
 - era-level architecture differences
@@ -18,9 +30,7 @@ Use this branch when time-based differences are the main driver of the answer.
 - buying advice
 - broad subsystem references when year is not the dominant split
 
-## Child branches
-- [`../era1/overview.md`](../era1/overview.md) — current canonical Era 1 / Renix overview during transition
-- [`../era2/overview.md`](../era2/overview.md) — current canonical Era 2 / Chrysler OBD-I overview during transition
-- [`../era3/overview.md`](../era3/overview.md) — current canonical Era 3 / JTEC overview during transition
-- [`../era3/1996-notes.md`](../era3/1996-notes.md) — current canonical 1996 exception notes during transition
-- Expected future child branches: `era1/`, `era2/`, `era3/`, and year-specific leaves under `vehicle/years/`
+## Cross-links
+- Broad stock subsystem routing: [`../systems/index.md`](../systems/index.md)
+- Diagnostic routing after year identification: [`../../diagnostics/index.md`](../../diagnostics/index.md)
+- ECU swap execution after year identification: [`../../work/swaps/ecu/index.md`](../../work/swaps/ecu/index.md)

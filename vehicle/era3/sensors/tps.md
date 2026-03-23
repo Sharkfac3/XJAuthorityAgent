@@ -10,7 +10,7 @@ Output: 0.5V closed throttle → 4.5V WOT. Reference: 5V.
 
 ## AW4 interaction
 Unchanged from Era 2. TPS signal wire still tapped by AW4 TCM on automatic vehicles.
-See `swap/wiring/aw4-tps.md`.
+See `work/swaps/ecu/integration/aw4-tps.md`.
 
 ## Swap notes
 Same as Era 2. Calibrate closed throttle and WOT endpoints in ECU software after installation.

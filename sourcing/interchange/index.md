@@ -1,27 +1,21 @@
 # Interchange Index
 
 ## Purpose
-Provide a routing stub for XJ interchange decisions.
+Route practical XJ interchange and fitment decisions.
 
-## Scope
-Practical parts interchange and fitment-decision guidance.
+## Use this branch when
+The main question is whether a factory or near-factory part family will fit, bolt on, plug in, or stay within acceptable stock compatibility boundaries.
 
-## What belongs here
-- decision support for this sourcing class
-- practical option comparisons
-- local compatibility or fitment notes tied to acquisition decisions
-- links to narrower donor, kit, connector, or part-family branches
+## First-hop loading path
+- Engine-related interchange → [`engine/index.md`](engine/index.md)
+- Transmission, transfer-case, and driveline interchange → [`drivetrain/index.md`](drivetrain/index.md)
+- Axle and differential interchange → [`axles/index.md`](axles/index.md)
+- Brake hardware interchange → [`brakes/index.md`](brakes/index.md)
+- Charging, starting, wiring, and electrical interchange → [`electrical/index.md`](electrical/index.md)
+- Body, trim, and interior interchange → [`body-interior/index.md`](body-interior/index.md)
 
-## What does not belong here
-- full service or installation procedures
-- stock-only fact storage with no decision context
-- symptom trees
-- agent or governance content
-
-## Child branches
-- [`engine/index.md`](engine/index.md) — Engine-related interchange guidance.
-- [`drivetrain/index.md`](drivetrain/index.md) — Transmission, transfer-case, and driveline interchange guidance.
-- [`axles/index.md`](axles/index.md) — Axle and differential donor interchange guidance.
-- [`brakes/index.md`](brakes/index.md) — Brake hardware interchange guidance.
-- [`electrical/index.md`](electrical/index.md) — Charging, starting, wiring, and electrical interchange guidance.
-- [`body-interior/index.md`](body-interior/index.md) — Body, trim, and interior interchange guidance.
+## Boundary links
+- Stock fact-only interchange limits: [`../../vehicle/interchange-baselines/index.md`](../../vehicle/interchange-baselines/index.md)
+- Donor-vehicle strategy: [`../donor-vehicles/index.md`](../donor-vehicles/index.md)
+- OEM vs aftermarket tradeoffs: [`../oem-vs-aftermarket/index.md`](../oem-vs-aftermarket/index.md)
+- Connector-specific sourcing: [`../connectors/index.md`](../connectors/index.md)

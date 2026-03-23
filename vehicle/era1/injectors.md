@@ -10,7 +10,7 @@
 - Spray pattern: Single hole, top-feed
 
 ## Connector note
-EV1 connectors on 1988–1990 vehicles are 30+ years old. The plastic becomes brittle and the locking tab often breaks on removal. Inspect before reusing. See `swap/wiring/connectors/ev1-bosch/injectors.md` for release procedure and sourcing.
+EV1 connectors on 1988–1990 vehicles are 30+ years old. The plastic becomes brittle and the locking tab often breaks on removal. Inspect before reusing. See `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md` for release procedure and sourcing.
 
 ## TunerStudio / ECU swap reference
 - Enter flow rate as **~19 lb/hr** at 39 psi for Required Fuel calculation (conservative end of the source range)

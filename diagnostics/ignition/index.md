@@ -18,7 +18,10 @@ Ignition trigger, spark-delivery, and timing-related fault isolation.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
+## Current child leaves
+- [`no-spark.md`](no-spark.md) — complete spark-loss starter path for crank-no-start complaints
+
+## Next likely child leaves
 - `crank-no-start.md` for spark-present-versus-spark-missing routing
 - `misfire-under-load.md` for coil, wire, cap, or trigger faults that appear under demand
-- `spark-loss.md` for complete or intermittent loss-of-spark diagnosis
+- `spark-loss.md` for complete or intermittent loss-of-spark diagnosis beyond the starter path

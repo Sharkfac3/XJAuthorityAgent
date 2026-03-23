@@ -3,7 +3,7 @@
 ## Specs
 - Type: NTC thermistor (same family as CTS, similar curve)
 - Location: Air cleaner housing or intake tube
-- Connector: Renix-native 2-pin — see `swap/wiring/connectors/renix-native/cts.md` (same connector as CTS)
+- Connector: Renix-native 2-pin — see `work/swaps/ecu/wiring/connectors/renix-native/cts.md` (same connector as CTS)
 - Resistance curve: Similar to Renix CTS curve — verify against FSM
 
 ## Swap notes

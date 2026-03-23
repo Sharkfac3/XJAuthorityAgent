@@ -10,4 +10,4 @@ Identical to Era 2. See `vehicle/era2/sensors/iac.md` for full specs.
 
 ## Swap notes
 Same stepper motor type across all three eras. Same open source ECU support considerations apply.
-See `swap/ecu-selection/iac-strategy.md` for options if ECU lacks native stepper support.
+See `work/swaps/ecu/ecu-selection/iac-strategy.md` for options if ECU lacks native stepper support.

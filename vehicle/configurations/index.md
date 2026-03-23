@@ -17,5 +17,12 @@ Use this branch when the question is about how factory combinations change the v
 - diagnostics trees
 - donor or purchase advice
 
-## Child branches
-- Expected child branches: `2wd-vs-4wd.md`, `engine-trans-combinations.md`, `abs-vs-non-abs.md`, and other stock matrix leaves
+## Current child leaves
+- [`engine-trans-combinations.md`](engine-trans-combinations.md) — first-hop engine and transmission narrowing
+- [`2wd-vs-4wd.md`](2wd-vs-4wd.md) — drivetrain-layout split before transfer-case, axle, or driveline assumptions
+- [`abs-vs-non-abs.md`](abs-vs-non-abs.md) — brake-system and axle-side split when ABS presence changes the answer
+
+## Supporting canon
+- Year and era routing: [`../years/index.md`](../years/index.md)
+- Transmission stock baseline: [`../systems/transmission/overview.md`](../systems/transmission/overview.md)
+- Brake stock baseline: [`../systems/brakes/overview.md`](../systems/brakes/overview.md)

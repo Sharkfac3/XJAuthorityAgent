@@ -22,9 +22,9 @@ Use this branch when the main question is which connector family, terminal set, 
 - [`pigtail-vs-rehousing.md`](pigtail-vs-rehousing.md) — choose between replacing the whole harness-end and rebuilding the original shell
 
 ## Cross-links to existing canon
-- Legacy connector-family canon: [`swap/wiring/connectors/index.md`](../../swap/wiring/connectors/index.md)
-- Wiring restoration work: [`work/restoration/wiring/index.md`](../../work/restoration/wiring/index.md)
-- Electrical interchange branch: [`sourcing/interchange/electrical/index.md`](../interchange/electrical/index.md)
+- ECU-swap connector canon: [`../../work/swaps/ecu/wiring/connectors/index.md`](../../work/swaps/ecu/wiring/connectors/index.md)
+- Wiring restoration work: [`../../work/restoration/wiring/index.md`](../../work/restoration/wiring/index.md)
+- Electrical interchange branch: [`../interchange/electrical/index.md`](../interchange/electrical/index.md)
 
 ## Next likely child leaves
 - `terminal-and-seal-families.md`

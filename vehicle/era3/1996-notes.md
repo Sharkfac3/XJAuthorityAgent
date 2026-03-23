@@ -17,7 +17,7 @@ OBD-II compliance was federally mandated for all U.S. vehicles from January 1, 1
 ## Practical effect on the swap
 - When sourcing replacement sensors for a 1996, use Era 2 part numbers — not 1997+ part numbers
 - When sourcing connector pigtails, use Era 2 connector families
-- ECU connector itself is JTEC — use `swap/wiring/connectors/ecu-body/jtec.md`
+- ECU connector itself is JTEC — use `work/swaps/ecu/wiring/connectors/ecu-body/jtec.md`
 - Treat the 1996 as an Era 2 harness with an Era 3 ECU
 
 ## ⚠️ Parts sourcing trap

@@ -6,7 +6,7 @@
 - Connected to intake manifold via vacuum hose (~3/16" ID)
 - Output: 0.5V at full vacuum → 4.5V at atmospheric (~100 kPa)
 - Reference voltage: 5V
-- Connector: Renix-native 3-pin — see `swap/wiring/connectors/renix-native/map.md`
+- Connector: Renix-native 3-pin — see `work/swaps/ecu/wiring/connectors/renix-native/map.md`
 
 ## Calibration
 At key-on engine-off, MAP should read barometric pressure (~100 kPa at sea level). Use this as a calibration check before first start.

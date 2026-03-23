@@ -14,9 +14,9 @@ Era 3 increased fuel pressure from 39 psi (Era 1/2) to **49 psi**. Era 1/2 injec
 1996 retains Era 2 injectors and fuel pressure (39 psi) with EV1 connectors. The fuel pressure increase did not arrive until 1997.
 
 ## Connector transition
-- 1996: EV1 — see `swap/wiring/connectors/ev1-bosch/injectors.md`
-- 1997–1998: EV1 — see `swap/wiring/connectors/ev1-bosch/injectors.md`
-- 1999–2001: EV6/USCAR — see `swap/wiring/connectors/ev6-uscar/injectors.md`
+- 1996: EV1 — see `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md`
+- 1997–1998: EV1 — see `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md`
+- 1999–2001: EV6/USCAR — see `work/swaps/ecu/wiring/connectors/ev6-uscar/injectors.md`
 
 ## TunerStudio / ECU swap reference
 Enter the values matching your specific year into the Required Fuel calculator:

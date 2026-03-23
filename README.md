@@ -1,35 +1,35 @@
 # XJ Authority Agent
 
-Jeep XJ technical knowledge system for agents and humans.
+This repository is a Jeep Cherokee XJ knowledgebase with exactly two agent roles:
 
-This repository covers the broader XJ platform:
-- stock identification, configuration, and subsystem facts
-- maintenance, repair, restoration, and setup work
-- diagnostics and fault isolation
-- upgrades and major swaps
-- sourcing, interchange, donor, and connector decisions
-- year, trim, package, drivetrain, and subsystem differences
+- `agents/expert.md` — the Jeep Cherokee expert that answers questions and writes informational documents from the knowledgebase
+- `agents/knowledgebase-builder.md` — the builder that restructures, cleans up, expands, audits, and hardens the knowledgebase
 
-ECU swaps remain an important branch, but they are no longer the repo's defining center. During migration, current ECU swap execution content remains canonical under `swap/`.
+## Fast start
+1. Read `AGENTS.md`.
+2. Choose exactly one role.
+3. Load that role file from `agents/`.
+4. Load only the narrowest knowledge files needed.
 
-## Entry points
-- `AGENTS.md` — primary routing file for agents
-- `SKILL.md` — root skill entrypoint for pi workflows
-- `.pi/skills/xj-swap-book/SKILL.md` — project-local pi discovery wrapper
+If the task is a Jeep question or an informational writing request, use the expert agent.
+If the task is repo cleanup, routing, migration, prompt-chain work, or knowledgebase buildout, use the knowledgebase-builder agent.
 
-## Top-level domains
-- `vehicle/` — stock Jeep XJ facts and baselines
-- `work/` — maintenance, repairs, restoration, upgrades, swaps, inspections, setup
-- `diagnostics/` — symptom-first troubleshooting and fault isolation
-- `sourcing/` — parts, donor, connector, and interchange decisions
-- `swap/` — legacy-but-current ECU swap execution branch during migration
-- `book/` — presentation rules and deliverable structure
-- `agents/` — behavior and routing only
-- `docs/` — governance, taxonomy, and migration notes only
-- `skillbuilding/` — repo-building workflows, audits, intake, and hardening
-- `humans/` — temporary process-artifact prompt archive from the retooling sequence; not a canonical technical root
+## Canonical knowledge roots
+- `vehicle/` — stock XJ facts and baselines
+- `work/` — maintenance, repairs, upgrades, swaps, inspections, setup
+- `diagnostics/` — troubleshooting and fault isolation
+- `sourcing/` — donor, parts, connector, and kit decisions
+- `book/` — writing and presentation rules for informational documents
 
-## Notes
-- Classify the question type before loading content.
-- Prefer domain routers and narrow leaf files over broad repo sweeps.
-- Keep canonical technical truth in the content tree, not in `agents/`, `docs/`, or `skillbuilding/`.
+## Support roots
+- `agents/` — role behavior and routing only
+- `humans/` — human-run prompt chain for cleanup, restructuring, and buildout work
+
+## Rules
+- Keep Jeep technical truth in the canonical knowledge roots.
+- Keep agent behavior in `agents/` only.
+- Keep human process prompts in `humans/` only.
+- Do not rebuild a separate governance knowledgebase.
+- Do not create additional agent roles in this repo.
+- Prefer narrow, reusable Markdown files over broad catch-all summaries.
+- Treat `work/swaps/ecu/` as the canonical ECU-swap execution branch.

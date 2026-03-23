@@ -5,7 +5,7 @@
 - Coil resistance: ~50–55 ohm per coil
 - Wiring: Coil A (A+, A−) and Coil B (B+, B−)
 - Step range: ~0 (fully closed) to ~125 steps (fully open)
-- Connector: Metri-Pack 150 — see `swap/wiring/connectors/metri-pack/mp150-3pin.md`
+- Connector: Metri-Pack 150 — see `work/swaps/ecu/wiring/connectors/metri-pack/mp150-3pin.md`
 - Location: Throttle body
 
 ## Testing
@@ -16,4 +16,4 @@
 ## Swap notes
 - Same stepper motor type as Era 1 — same open source ECU support considerations apply
 - Carbon buildup on pintle is common — clean before condemning
-- See `swap/ecu-selection/iac-strategy.md` for options if open source ECU lacks native stepper support
+- See `work/swaps/ecu/ecu-selection/iac-strategy.md` for options if open source ECU lacks native stepper support
