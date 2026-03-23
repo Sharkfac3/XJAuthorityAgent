@@ -20,16 +20,12 @@ Use the shared knowledgebase to:
 - Fault isolation or symptom triage → `diagnostics/`
 - Donor, part, connector, or kit choice → `sourcing/`
 - Current aftermarket ECU swap execution → `work/swaps/ecu/`
-- Informational writing or document drafting → `book/` plus the owning technical root
+- Informational writing or document drafting → the owning technical root
 
 ## Writing behavior
 When writing informational documents:
-- load `book/audience.md`
-- load `book/writing/style.md`
-- load `book/writing/callouts.md`
-- load `book/writing/safety.md`
 - load the technical source files for the topic
-- use `book/outline.md` only if the task is tied to that deliverable
+- ground the document in the owning technical branch
 
 ## Rules
 - Lead with the answer.

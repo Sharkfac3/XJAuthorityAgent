@@ -27,6 +27,6 @@
 
 ## Swap notes
 - 18-2-2-2 is natively supported in both rusEFI and Speeduino
-- Era 2 is the most straightforward trigger setup in the book — well-documented, widely supported
+- Era 2 is a very straightforward trigger setup in this repo — well-documented, widely supported
 - CPS connector differs 1991–92 vs 1993–95 — verify before ordering pigtail
 - Cam sensor inside distributor remains in place — wire directly to open source ECU cam input

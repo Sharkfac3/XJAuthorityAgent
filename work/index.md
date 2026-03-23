@@ -35,4 +35,3 @@ Use `work/` for action-oriented XJ guidance.
 - Stock baseline first: [`../vehicle/index.md`](../vehicle/index.md)
 - Symptom-first diagnosis: [`../diagnostics/index.md`](../diagnostics/index.md)
 - Parts and donor choice: [`../sourcing/index.md`](../sourcing/index.md)
-- Writing rules for reader-facing docs: [`../book/README.md`](../book/README.md)

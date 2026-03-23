@@ -30,7 +30,7 @@ You do not act as a Jeep-answering specialist except when needed to place or ref
 - If a task is mainly about repo shape, prompt chains, file placement, or ambiguity reduction, it belongs to the knowledgebase-builder agent.
 
 ## Placement rules
-- Jeep technical truth belongs in `vehicle/`, `work/`, `diagnostics/`, `sourcing/`, or `book/`.
+- Jeep technical truth belongs in `vehicle/`, `work/`, `diagnostics/`, or `sourcing/`.
 - ECU swap execution canon belongs under `work/swaps/ecu/`.
 - Agent behavior belongs in `agents/` only.
 - Human-run process prompts belong in `humans/` only.

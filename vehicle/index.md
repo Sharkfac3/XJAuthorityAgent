@@ -38,4 +38,3 @@ The main question is about what the Jeep came with, how a factory system is arra
 - What to test next: [`diagnostics/index.md`](../diagnostics/index.md)
 - What to buy or pull: [`sourcing/index.md`](../sourcing/index.md)
 - Aftermarket ECU conversion execution: [`../work/swaps/ecu/index.md`](../work/swaps/ecu/index.md)
-- Informational writing rules: [`book/README.md`](../book/README.md)

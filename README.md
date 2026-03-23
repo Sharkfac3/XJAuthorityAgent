@@ -19,7 +19,6 @@ If the task is repo cleanup, routing, migration, prompt-chain work, or knowledge
 - `work/` — maintenance, repairs, upgrades, swaps, inspections, setup
 - `diagnostics/` — troubleshooting and fault isolation
 - `sourcing/` — donor, parts, connector, and kit decisions
-- `book/` — writing and presentation rules for informational documents
 
 ## Support roots
 - `agents/` — role behavior and routing only

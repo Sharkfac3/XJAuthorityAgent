@@ -18,7 +18,6 @@ description: Jeep Cherokee XJ knowledgebase router. Read AGENTS.md, choose exact
 - `work/`
 - `diagnostics/`
 - `sourcing/`
-- `book/`
 
 ## Routing rule
 - Jeep questions and informational writing requests go to the expert agent.

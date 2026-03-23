@@ -10,7 +10,7 @@ Use this branch when the main question is how to plan, wire, start, validate, or
 - the question is mainly about non-ECU job execution → [`../../index.md`](../../index.md)
 - the question is mainly about symptom diagnosis → [`../../../diagnostics/index.md`](../../../diagnostics/index.md)
 - the question is mainly about parts, donor, connector, or kit choice with no execution focus → [`../../../sourcing/index.md`](../../../sourcing/index.md)
-- the task is reader-facing informational writing → [`../../../book/README.md`](../../../book/README.md) plus the owning technical branch
+- the task is reader-facing informational writing with no ECU-swap execution focus → load the owning technical branch directly
 
 ## How to use this index
 1. Identify the stock era and transmission first.

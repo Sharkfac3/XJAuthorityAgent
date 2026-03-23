@@ -16,7 +16,6 @@ It is meant to support one expert agent that can answer Jeep questions and write
 - `work/` — maintenance, repairs, upgrades, swaps, inspections, setup
 - `diagnostics/` — symptom-first troubleshooting and fault isolation
 - `sourcing/` — parts, donors, connectors, kits, interchange decisions
-- `book/` — writing, style, safety, and presentation rules for informational documents
 
 ## Support roots
 - `agents/` — role definitions and routing behavior only
@@ -61,7 +60,7 @@ When operating as the expert agent, classify the question before loading content
 3. Symptom or fault-isolation question → `diagnostics/`
 4. Part / donor / connector / kit choice question → `sourcing/`
 5. Current ECU swap execution question → `work/swaps/ecu/`
-6. Informational writing request → `book/` plus the owning technical domain
+6. Informational writing request → the owning technical domain
 
 Then narrow by year, era, engine, transmission, drivetrain, ABS, axle family, donor family, or ECU platform when the answer depends on them.
 
