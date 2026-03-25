@@ -13,6 +13,7 @@ The main question is whether a factory or near-factory part family will fit, bol
 - Brake hardware interchange → [`brakes/index.md`](brakes/index.md)
 - Charging, starting, wiring, and electrical interchange → [`electrical/index.md`](electrical/index.md)
 - Body, trim, and interior interchange → [`body-interior/index.md`](body-interior/index.md)
+- Suspension, steering, and lift interchange → [`suspension/index.md`](suspension/index.md)
 
 ## Boundary links
 - Stock fact-only interchange limits: [`../../vehicle/interchange-baselines/index.md`](../../vehicle/interchange-baselines/index.md)

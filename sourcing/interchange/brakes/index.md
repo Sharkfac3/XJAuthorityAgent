@@ -17,6 +17,9 @@ Brake hardware interchange guidance.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
+## Child leaves
+- [junkyard-upgrades.md](junkyard-upgrades.md) — community-compiled donor brake boosters, calipers, rotors, and rear disc conversions from junkyard upgrade threads
+
 ## Expected child branches
 - narrow decision leaves named for the part family, donor family, or selection problem
 - project-linked compatibility leaves when a sourcing topic needs more than one decision file

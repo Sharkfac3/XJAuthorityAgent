@@ -1,24 +1,107 @@
-# Axles Swaps Index
+# Axle Swaps Index
 
 ## Purpose
-Route axle-family swap projects and fitment workflows.
+Route axle-family swap projects and fitment workflows for the Jeep Cherokee XJ.
 
-## Scope
-Axle-family swap projects and fitment workflows.
+Use this branch when the main question is how to plan, source, prepare, install, or validate an axle swap on an XJ.
 
-## What belongs here
-- concrete job folders and procedure leaves for this branch
-- local compatibility notes when year, drivetrain, ABS, or donor differences materially change the work
-- required-parts, procedure, and validation leaves when the topic grows beyond a single page
-- narrow cross-links to `vehicle/`, `diagnostics/`, or `sourcing/` when support context is needed
+## Do not start here when
+- the question is mainly about stock factory axle configuration → [`../../../vehicle/systems/axles/overview.md`](../../../vehicle/systems/axles/overview.md)
+- the question is mainly about non-axle job execution → [`../../index.md`](../../index.md)
+- the question is mainly about symptom diagnosis → [`../../../diagnostics/index.md`](../../../diagnostics/index.md)
+- the question is mainly about donor/part selection with no execution focus → [`../../../sourcing/interchange/axles/index.md`](../../../sourcing/interchange/axles/index.md)
 
-## What does not belong here
-- stock baseline facts with no action context
-- symptom-first troubleshooting trees
-- sourcing-only comparisons as the primary topic
-- unrelated work classes or repo-governance content
+## How to use this index
+1. Identify what class of axle swap (half-ton upgrade or one-ton conversion).
+2. Enter the stage that matches the current decision or task.
+3. Pull in `vehicle/`, `sourcing/`, or `diagnostics/` files only where the swap decision depends on them.
 
-## Expected child branches
-- `rear-axle-swap-planning/` for donor-family selection and fitment prep
-- `front-axle-swap-fitment/` for housing, bracket, and steering-fit questions
-- `gearing-and-driveshaft-follow-up/` for support work created by the axle swap
+---
+
+## One-Ton Swap Workflow — 2005+ Ford Super Duty
+
+Dana 60 front / Sterling 10.50 rear. The staged workflow below walks through the full one-ton conversion.
+
+### Stage 1 — Understand the stock baseline
+Load:
+- [`../../../vehicle/systems/axles/overview.md`](../../../vehicle/systems/axles/overview.md)
+- [`../../../vehicle/systems/axles/stock-specs.md`](../../../vehicle/systems/axles/stock-specs.md)
+
+Use this stage to answer:
+- What axles does the XJ currently have?
+- What are the dimensional baselines the swap must work against?
+- What wheel bolt pattern, gear ratio, and shaft specs are being replaced?
+
+### Stage 2 — Select the donor axles
+Load:
+- [`../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md`](../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md)
+- [`../../../sourcing/donor-vehicles/axles/ford-super-duty-sterling-10-50.md`](../../../sourcing/donor-vehicles/axles/ford-super-duty-sterling-10-50.md)
+
+Use this stage to answer:
+- Which model years and trims to target?
+- SRW vs DRW — which to pull?
+- What components to grab from the donor?
+- How to identify the right axle at the junkyard?
+
+### Stage 3 — Evaluate fitment and dimensional decisions
+Load:
+- [`../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md`](../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md)
+- [`../../../sourcing/interchange/axles/super-duty-sterling-fitment.md`](../../../sourcing/interchange/axles/super-duty-sterling-fitment.md)
+- [`../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../sourcing/interchange/axles/one-ton-gearing.md)
+- [`../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
+
+Use this stage to answer:
+- How much wider is the donor than the XJ? How much narrowing?
+- What steering conversion is needed?
+- What gear ratio for the intended tire size?
+- What U-joint series and driveshaft configuration?
+- What brakes, hubs, and wheel changes are required?
+
+### Stage 4 — Plan lift and clearance
+Load:
+- [`support-work/lift-and-clearance.md`](support-work/lift-and-clearance.md)
+
+Use this stage to answer:
+- What minimum lift height is needed?
+- What fender work is required for the tire size?
+- What are the driveline angle limits?
+- Where do bump stops go?
+
+### Stage 5 — Execute front axle swap
+Load:
+- [`one-ton-front/index.md`](one-ton-front/index.md)
+- Relevant leaves as needed:
+  - [`one-ton-front/housing-prep.md`](one-ton-front/housing-prep.md)
+  - [`one-ton-front/spring-perch-relocation.md`](one-ton-front/spring-perch-relocation.md)
+  - [`one-ton-front/steering-conversion.md`](one-ton-front/steering-conversion.md)
+  - [`one-ton-front/brake-integration.md`](one-ton-front/brake-integration.md)
+  - [`one-ton-front/mounting-and-brackets.md`](one-ton-front/mounting-and-brackets.md)
+
+### Stage 6 — Execute rear axle swap
+Load:
+- [`one-ton-rear/index.md`](one-ton-rear/index.md)
+- Relevant leaves as needed:
+  - [`one-ton-rear/housing-prep.md`](one-ton-rear/housing-prep.md)
+  - [`one-ton-rear/spring-perch-welding.md`](one-ton-rear/spring-perch-welding.md)
+  - [`one-ton-rear/brake-and-ebrake.md`](one-ton-rear/brake-and-ebrake.md)
+  - [`one-ton-rear/mounting-and-brackets.md`](one-ton-rear/mounting-and-brackets.md)
+
+### Stage 7 — Support work (driveshafts, gearing, validation)
+Load:
+- [`support-work/index.md`](support-work/index.md)
+- Relevant leaves as needed:
+  - [`support-work/driveshaft-work.md`](support-work/driveshaft-work.md)
+  - [`support-work/gearing-install.md`](support-work/gearing-install.md)
+
+---
+
+## Branch routers
+- Front axle swap → [`one-ton-front/index.md`](one-ton-front/index.md)
+- Rear axle swap → [`one-ton-rear/index.md`](one-ton-rear/index.md)
+- Support work (driveshafts, gearing, lift) → [`support-work/index.md`](support-work/index.md)
+
+## Boundary links
+- Stock axle baseline: [`../../../vehicle/systems/axles/overview.md`](../../../vehicle/systems/axles/overview.md)
+- Donor vehicle identification: [`../../../sourcing/donor-vehicles/axles/index.md`](../../../sourcing/donor-vehicles/axles/index.md)
+- Interchange and fitment decisions: [`../../../sourcing/interchange/axles/index.md`](../../../sourcing/interchange/axles/index.md)
+- Inspections (pre-swap): [`../../inspections/pre-swap/index.md`](../../inspections/pre-swap/index.md)

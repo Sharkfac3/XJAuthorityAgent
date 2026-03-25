@@ -20,6 +20,9 @@ Engine-related interchange guidance.
 ## Cross-references in place
 - **Injectors**: Neon 703/784, Ford Motorsport, Lincoln Town Car, Bosch EV14, GM LS — documented in `vehicle/era1/injectors.md`, `vehicle/era2/injectors.md`, `vehicle/era3/injectors.md`
 
+## Child leaves
+- [junkyard-upgrades.md](junkyard-upgrades.md) — community-compiled donor engine, cooling, and intake components from junkyard upgrade threads
+
 ## Expected child branches
 - narrow decision leaves named for the part family, donor family, or selection problem
 - project-linked compatibility leaves when a sourcing topic needs more than one decision file

@@ -1,22 +1,29 @@
 # Axles Donor Vehicles Index
 
 ## Purpose
-Provide a routing stub for donor vehicles decisions related to the XJ axles domain.
+Donor-vehicle guidance for axle swap projects targeting the Jeep Cherokee XJ.
 
 ## Scope
-Donor-vehicle guidance for axle projects.
+Which vehicles to target, what to pull, and how to identify the right axle at the junkyard. This branch covers donor identification — not fitment decisions (see `sourcing/interchange/axles/`) or install procedures (see `work/swaps/axles/`).
 
 ## What belongs here
-- donor options, fitment-decision notes, or part-family comparisons in this branch
-- local compatibility notes that affect the sourcing decision
-- links to future leaves such as `donor-options.md`, `oem-vs-aftermarket.md`, or `connector-sourcing.md`
+- donor vehicle identification by year, model, and trim
+- what to pull and what to leave behind
+- junkyard ID tips (visual tells, tags, casting numbers)
+- SRW vs DRW, full-float vs semi-float, and other variant guidance
 
 ## What does not belong here
-- install procedures
-- stock-only fact baselines that belong under `vehicle/`
-- symptom-first troubleshooting that belongs under `diagnostics/`
-- unrelated sourcing classes outside this branch
+- install procedures → `work/swaps/axles/`
+- stock XJ axle baselines → `vehicle/systems/axles/`
+- dimensional fitment and interchange decisions → `sourcing/interchange/axles/`
+- symptom-first diagnostics → `diagnostics/`
+
+## Child leaves
+
+### One-ton class (05+ Ford Super Duty)
+- [ford-super-duty-dana-60.md](ford-super-duty-dana-60.md) — 2005+ F-250/F-350 Dana 60 front axle donor guide
+- [ford-super-duty-sterling-10-50.md](ford-super-duty-sterling-10-50.md) — 2005+ F-250/F-350 Sterling 10.25/10.50 rear axle donor guide
 
 ## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+- Half-ton / intermediate donor leaves (Ford 8.8, ZJ Dana 44) when expanded from `sourcing/interchange/axles/junkyard-upgrades.md`
+- Other one-ton donor families (GM 14-bolt, military Dana 60, older kingpin Dana 60) as the knowledgebase grows
