@@ -31,15 +31,33 @@ Injector dead time (open time): 0.9–1.5 ms typical starting point — calibrat
 ## Upgrade options
 
 ### 1996 (EV1/Jetronic, 39 psi)
-Same connector and pressure as Era 1/2 — see `vehicle/era1/injectors.md` for upgrade options.
+Same connector and pressure as Era 1/2 — see `vehicle/era1/injectors.md` for upgrade options (including Neon 703).
 
 ### 1997–1998 (EV1/Jetronic, 49 psi)
 EV1 connector retained but fuel pressure increased to 49 psi. Flow rate scales with pressure — account for this when selecting aftermarket injectors rated at a different base pressure.
+
+#### Dodge/Chrysler Neon cross-reference (EV1)
+- **Bosch 0280155703** ("703"): ~22.5 lb/hr @ 43.5 psi, 4-hole spray, EV1 connector, ~12 ohm
+- Source vehicles: 95–99 Neon 2.0 DOHC, Stratus/Breeze/Cirrus 2.0/2.4
+- At 49 psi XJ rail: ~24.5 lb/hr effective
+- 4-hole spray pattern replaces stock single-hole pintle — better atomization
+- Direct bolt-in, no rail or o-ring changes needed
+- Status: `confirmed` — community-verified (Cherokee Talk, JeepForum, NAXJA)
+
 Bosch EV14 catalog numbers for EV1/Jetronic connector: 62687, 62203
 Status: `needs verification` — confirm connector type before ordering.
 
 ### 1999–2001 (EV6/USCAR, 49 psi)
 EV6/USCAR is the modern standard connector with the widest aftermarket availability.
+
+#### Dodge/Chrysler Neon cross-reference (EV6/USCAR)
+- **Bosch 0280155784** ("784"): ~22.5 lb/hr @ 43.5 psi, 4-hole spray, EV6/USCAR connector, ~12 ohm
+- Source vehicles: 98–01 Neon, Caravan, Voyager, Stratus 2.4
+- At 49 psi XJ rail: ~24.5 lb/hr effective
+- Direct bolt-in replacement for 1999–2001 stock injectors
+- 703 (EV1) and 784 (EV6) are internally identical — only connector differs
+- Status: `confirmed` — community-verified (Cherokee Talk, JeepForum, NAXJA)
+
 Bosch EV14 catalog numbers for EV6/USCAR connector: 62385, 62648, 62647
 Status: `needs verification` — confirm connector type before ordering.
 

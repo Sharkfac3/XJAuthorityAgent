@@ -23,6 +23,15 @@ All upgrades must retain EV1 (Bosch Jetronic) connector or use an adapter harnes
 ### Direct-fit community-verified options
 - **Lincoln Town Car 4.6L** (1990–1991): ~19 lb/hr @ 36 psi, 4-hole spray pattern, EV1 connector — confirmed direct fit for Renix. Status: `confirmed` — source: community (Cherokee Talk)
 
+### Dodge/Chrysler Neon cross-reference (EV1 compatible)
+- **Bosch 0280155703** ("703"): ~22.5 lb/hr @ 43.5 psi, 4-hole spray, EV1 connector, ~12 ohm
+- Source vehicles: 95–99 Neon 2.0 DOHC, Stratus/Breeze/Cirrus 2.0/2.4
+- At 39 psi XJ rail: ~22.5 lb/hr effective
+- 4-hole spray pattern replaces stock single-hole pintle — better atomization, smoother idle, improved throttle response
+- 703 and 784 (EV6 variant) are internally identical — only connector differs
+- Direct bolt-in, no rail or o-ring changes needed
+- Status: `confirmed` — community-verified (Cherokee Talk, JeepForum, NAXJA)
+
 ### Ford Motorsport cross-reference (EV1 compatible)
 | Part number | Flow rate @ 39 psi |
 |---|---|
