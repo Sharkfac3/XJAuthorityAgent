@@ -20,7 +20,8 @@ Use this branch for donor-family, assembly-family, or control-architecture chang
 
 ## Child branches
 - [`ecu/index.md`](ecu/index.md) — ECU and engine-management architecture conversion work.
-- [`drivetrain/index.md`](drivetrain/index.md) — Engine and drivetrain family swap projects.
+- [`engine/index.md`](engine/index.md) — Engine-family swap projects (e.g. HO block into Renix chassis).
+- [`drivetrain/index.md`](drivetrain/index.md) — Drivetrain family swap projects.
 - [`transmission/index.md`](transmission/index.md) — Transmission swap projects and related fitment workflows.
 - [`transfer-case/index.md`](transfer-case/index.md) — Transfer-case swap projects and architecture changes.
 - [`axles/index.md`](axles/index.md) — Axle-family swap projects and fitment workflows.

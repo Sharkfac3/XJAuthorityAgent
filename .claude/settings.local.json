@@ -15,7 +15,10 @@
       "WebFetch(domain:wiki.speeduino.com)",
       "WebSearch",
       "WebFetch(domain:speeduino.com)",
-      "Bash(pdftotext /tmp/speeduino_manual.pdf -)"
+      "Bash(pdftotext /tmp/speeduino_manual.pdf -)",
+      "WebFetch(domain:cruiser54.com)",
+      "Bash(ls -1 /c/Users/sharkfac3/Workspace/coding/XJAuthorityAgent/work/maintenance/electrical/*.md)",
+      "Bash(ls -1 /c/Users/sharkfac3/Workspace/coding/XJAuthorityAgent/work/upgrades/electrical/*.md)"
     ]
   }
 }

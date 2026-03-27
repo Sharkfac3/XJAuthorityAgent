@@ -15,7 +15,11 @@ The engine harness passes through a multi-pin firewall connector — a known cor
 - B+ latch relay keeps IAC powered at key-off for reset — replicate this behavior if using stock stepper IAC
 
 ## Grounds on Era 1
-Era 1 grounds are the oldest in scope and the most likely to be compromised. Run new dedicated grounds before attempting diagnosis of any electrical problem. See `work/swaps/ecu/wiring/grounds.md`.
+Era 1 grounds are the oldest in scope and the most likely to be compromised. Run new dedicated grounds before attempting diagnosis of any electrical problem.
+
+- Full factory ground refresh procedure: `work/maintenance/electrical/renix-ground-refresh.md`
+- Supplemental ground cable upgrades: `work/upgrades/electrical/renix-ground-upgrades.md`
+- Grounds in the context of ECU swaps: `work/swaps/ecu/wiring/grounds.md`
 
 ## Fuse box
 Under-dash fuse block on all Era 1 vehicles. No under-hood PDC.
