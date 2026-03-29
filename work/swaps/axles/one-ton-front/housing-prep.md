@@ -2,7 +2,7 @@
 
 Housing narrowing, cleanup, and preparation procedures for installing a 2005+ Super Duty Dana 60 front axle under a Jeep Cherokee XJ.
 
-For fitment dimensions and narrowing decisions, see: [`../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md`](../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md)
+For fitment dimensions and narrowing decisions, see: [`../../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md`](../../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md)
 
 ---
 

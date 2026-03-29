@@ -55,4 +55,4 @@ Document the two main combinations the community builds:
 - Cam: the stock cam is a reasonable starting point; aftermarket grinds exist from Comp Cams and others for the 4.0L — profile selection depends on intended use (street vs. trail vs. tow)
 
 Place files under `work/upgrades/engine/`. Update `work/upgrades/engine/index.md` router if it exists, or create it.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

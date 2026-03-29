@@ -12,10 +12,13 @@ OBD-II compliance was federally mandated for all U.S. vehicles from January 1, 1
 - Sensor connectors: Metri-Pack 150 from Era 2, not updated
 - Sensor calibration curves: Same as Era 2 CTS, MAP, TPS
 - Engine harness routing and connector locations: Same as Era 2
-- Injector connectors: EV1 (same as Era 1 and Era 2) — EV6 did not arrive until 1997
+- Injector connectors: EV1 (same physical plug as Era 1 and Era 2) — EV6 did not arrive until 1999
+- Injectors themselves: **not** Era 2 holdovers — 1996 uses new grey 53030778 at 49 psi (same part as 1997–1998); not the tan 53030343 Era 2 part at 39 psi
+- Fuel pressure: 49 psi (returnless system) — same as all other Era 3 years
 
 ## Practical effect on the swap
-- When sourcing replacement sensors for a 1996, use Era 2 part numbers — not 1997+ part numbers
+- When sourcing replacement **sensors** for a 1996, use Era 2 part numbers — connectors and calibration curves are Era 2
+- When sourcing **injectors** for a 1996, use Era 3 part numbers (53030778) — not Era 2 tan injectors
 - When sourcing connector pigtails, use Era 2 connector families
 - ECU connector itself is JTEC — use `work/swaps/ecu/wiring/connectors/ecu-body/jtec.md`
 - Treat the 1996 as an Era 2 harness with an Era 3 ECU

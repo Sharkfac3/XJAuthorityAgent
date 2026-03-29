@@ -2,7 +2,7 @@
 
 Housing narrowing, tube work, and axle shaft modification for installing a 2005+ Super Duty Sterling 10.50 rear axle under a Jeep Cherokee XJ.
 
-For fitment dimensions and narrowing decisions, see: [`../../../sourcing/interchange/axles/super-duty-sterling-fitment.md`](../../../sourcing/interchange/axles/super-duty-sterling-fitment.md)
+For fitment dimensions and narrowing decisions, see: [`../../../../sourcing/interchange/axles/super-duty-sterling-fitment.md`](../../../../sourcing/interchange/axles/super-duty-sterling-fitment.md)
 
 ---
 

@@ -11,7 +11,7 @@ No distributor. A single coil rail assembly spans all 6 cylinders and mounts alo
 | Output 3 | 3 & 4 | Fire simultaneously |
 
 ## Components
-- Coil rail: Single assembly with 6 individual coil towers, one per cylinder
+- Coil rail: Single assembly containing **3 internal coils** with 6 output towers/boots (2 towers per coil, one per cylinder)
 - Spark plug boots: Short boots directly on plug — no separate plug wires
 - Cam sensor: Hall effect, relocated to front of engine at camshaft gear
 

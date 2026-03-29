@@ -50,4 +50,4 @@ The XJ Cherokee came with these transmissions depending on year and engine:
 - Fluid specs matter: AW4 uses ATF+4 (not Dexron), NP231/NP242 use ATF
 
 Place all files under `vehicle/systems/transmission/` and `vehicle/systems/transfer-case/`. Update `vehicle/systems/` index to include these.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

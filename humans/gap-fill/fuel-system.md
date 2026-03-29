@@ -4,6 +4,10 @@ Copy and paste the prompt below into a new chat session with the Knowledgebase B
 
 ---
 
+limited out with this one already ran
+
+
+
 You are the Knowledgebase Builder for this repository.
 
 Start by reading `AGENTS.md`, then `agents/knowledgebase-builder.md`. Then read `vehicle/era1/injectors.md`, `vehicle/era2/injectors.md`, and `vehicle/era3/injectors.md` (if it exists) before writing — injector content already exists and should be cross-referenced, not duplicated.
@@ -48,4 +52,4 @@ The fuel system beyond injectors is undocumented. Build coverage for the pump, t
 - Swap implications: if swapping an Era 3 engine into an Era 1/2 chassis, the fuel system architecture must match the ECU's expectations; cannot mix a returnless pump with a return-style ECU setup without modification
 
 Update `vehicle/systems/fuel/index.md` router. Cross-reference from `vehicle/era1/overview.md`, `vehicle/era2/overview.md`, and `vehicle/era3/overview.md`.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

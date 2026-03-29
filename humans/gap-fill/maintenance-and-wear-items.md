@@ -85,4 +85,4 @@ Basic maintenance and consumables are undocumented. Build the foundational wear-
 
 ## Format guidance
 Keep files short and reference-oriented. These are lookup files — the expert agent needs to be able to answer "what fluid does the AW4 take" in one file read. Avoid procedural how-to content here; that belongs in `work/maintenance/`.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

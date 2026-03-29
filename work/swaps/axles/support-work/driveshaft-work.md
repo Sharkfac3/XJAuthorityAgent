@@ -2,7 +2,7 @@
 
 Measurement, ordering, and installation procedures for front and rear driveshafts on an XJ Cherokee one-ton axle build (Dana 60 front / Sterling 10.50 rear).
 
-For U-joint series, shaft specs, and SYE details, see: [`../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
+For U-joint series, shaft specs, and SYE details, see: [`../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
 
 ---
 
@@ -98,6 +98,6 @@ If vibration occurs after driveshaft installation:
 ---
 
 ## Related
-- Driveshaft specs and U-joint series: [`../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
+- Driveshaft specs and U-joint series: [`../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
 - Front spring perch (affects pinion angle): [`../one-ton-front/spring-perch-relocation.md`](../one-ton-front/spring-perch-relocation.md)
 - Rear spring perch (affects pinion angle): [`../one-ton-rear/spring-perch-welding.md`](../one-ton-rear/spring-perch-welding.md)

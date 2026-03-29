@@ -12,8 +12,8 @@ Route cross-cutting support work that applies to both axles or the vehicle as a 
 ## Do not start here when
 - the question is specific to the front axle → [`../one-ton-front/index.md`](../one-ton-front/index.md)
 - the question is specific to the rear axle → [`../one-ton-rear/index.md`](../one-ton-rear/index.md)
-- the question is about donor selection → [`../../../sourcing/donor-vehicles/axles/index.md`](../../../sourcing/donor-vehicles/axles/index.md)
-- the question is about fitment dimensions → [`../../../sourcing/interchange/axles/index.md`](../../../sourcing/interchange/axles/index.md)
+- the question is about donor selection → [`../../../../sourcing/donor-vehicles/axles/index.md`](../../../../sourcing/donor-vehicles/axles/index.md)
+- the question is about fitment dimensions → [`../../../../sourcing/interchange/axles/index.md`](../../../../sourcing/interchange/axles/index.md)
 
 ## Child leaves
 
@@ -22,6 +22,6 @@ Route cross-cutting support work that applies to both axles or the vehicle as a 
 - [gearing-install.md](gearing-install.md) — ring-and-pinion setup, carrier break points, locker installation, professional vs DIY guidance
 
 ## Boundary links
-- Driveshaft specs and U-joint series: [`../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
-- Gearing and locker selection: [`../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../sourcing/interchange/axles/one-ton-gearing.md)
-- Stock XJ axle baseline: [`../../../vehicle/systems/axles/stock-specs.md`](../../../vehicle/systems/axles/stock-specs.md)
+- Driveshaft specs and U-joint series: [`../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
+- Gearing and locker selection: [`../../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../../sourcing/interchange/axles/one-ton-gearing.md)
+- Stock XJ axle baseline: [`../../../../vehicle/systems/axles/stock-specs.md`](../../../../vehicle/systems/axles/stock-specs.md)

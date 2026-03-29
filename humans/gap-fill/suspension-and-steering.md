@@ -61,4 +61,4 @@ Suspension and steering are empty. Build foundational vehicle-level coverage. Th
 - Cross-reference `diagnostics/steering-and-suspension/death-wobble.md`
 
 Place all files in `vehicle/systems/suspension/` and `vehicle/systems/steering/`. Update the index files for both directories after writing.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

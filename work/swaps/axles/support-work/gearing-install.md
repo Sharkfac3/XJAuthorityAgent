@@ -2,7 +2,7 @@
 
 Setup overview for ring-and-pinion installation and locker/differential selection in the Dana 60 and Sterling 10.50 for XJ Cherokee one-ton builds.
 
-For ratio selection and locker options, see: [`../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../sourcing/interchange/axles/one-ton-gearing.md)
+For ratio selection and locker options, see: [`../../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../../sourcing/interchange/axles/one-ton-gearing.md)
 
 ---
 
@@ -105,5 +105,5 @@ If you do not have these tools and experience reading contact patterns, **strong
 ---
 
 ## Related
-- Gearing and locker selection: [`../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../sourcing/interchange/axles/one-ton-gearing.md)
+- Gearing and locker selection: [`../../../../sourcing/interchange/axles/one-ton-gearing.md`](../../../../sourcing/interchange/axles/one-ton-gearing.md)
 - Driveshaft work (pinion angle): [`driveshaft-work.md`](driveshaft-work.md)

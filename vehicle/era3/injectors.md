@@ -6,34 +6,25 @@ Era 3 increased fuel pressure from 39 psi (Era 1/2) to **49 psi**. Era 1/2 injec
 ## Specs by year
 | Years | Part number | Color | Flow rate | Connector |
 |---|---|---|---|---|
-| 1996 | Same as Era 2 (53030343) | Tan | ~21 lb/hr @ 39 psi | EV1 |
-| 1997–1998 | 53030778 | Gray | ~23.2 lb/hr @ 49 psi | EV1 |
+| 1996–1998 | 53030778 | Grey | ~23.2 lb/hr @ 49 psi | EV1 |
 | 1999–2001 | 04854181 | Blue tip | ~22.5 lb/hr @ 49 psi | EV6/USCAR |
 
-## ⚡ 1996 note
-1996 retains Era 2 injectors and fuel pressure (39 psi) with EV1 connectors. The fuel pressure increase did not arrive until 1997.
-
 ## Connector transition
-- 1996: EV1 — see `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md`
-- 1997–1998: EV1 — see `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md`
+- 1996–1998: EV1 — see `work/swaps/ecu/wiring/connectors/ev1-bosch/injectors.md`
 - 1999–2001: EV6/USCAR — see `work/swaps/ecu/wiring/connectors/ev6-uscar/injectors.md`
 
 ## TunerStudio / ECU swap reference
 Enter the values matching your specific year into the Required Fuel calculator:
 | Years | Flow rate | Fuel pressure |
 |---|---|---|
-| 1996 | ~21 lb/hr | 39 psi |
-| 1997–1998 | ~23.2 lb/hr | 49 psi |
+| 1996–1998 | ~23.2 lb/hr | 49 psi |
 | 1999–2001 | ~22.5 lb/hr | 49 psi |
 
 Injector dead time (open time): 0.9–1.5 ms typical starting point — calibrate against actual injector spec sheet if available.
 
 ## Upgrade options
 
-### 1996 (EV1/Jetronic, 39 psi)
-Same connector and pressure as Era 1/2 — see `vehicle/era1/injectors.md` for upgrade options (including Neon 703).
-
-### 1997–1998 (EV1/Jetronic, 49 psi)
+### 1996–1998 (EV1/Jetronic, 49 psi)
 EV1 connector retained but fuel pressure increased to 49 psi. Flow rate scales with pressure — account for this when selecting aftermarket injectors rated at a different base pressure.
 
 #### Dodge/Chrysler Neon cross-reference (EV1)

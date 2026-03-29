@@ -48,4 +48,4 @@ Start by reading `AGENTS.md`, then `agents/knowledgebase-builder.md`. Then read 
 - Which pins are highest priority (CPS, O2, injectors)
 
 Keep this section focused on restoration of factory wiring on existing vehicles. Swap-specific wiring belongs in `work/swaps/ecu/wiring/`. Link to that section where relevant rather than duplicating content.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

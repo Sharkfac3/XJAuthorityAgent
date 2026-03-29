@@ -1,7 +1,9 @@
 # Era 3: Wiring Specifics
 
 ## ECU location
-JTEC is behind the glovebox. Slim silver/gray box — physically different from the black SBEC.
+JTEC is in the **engine compartment on the passenger-side inner fender**, behind the battery and coolant reservoir tank. Slim silver/gray box — physically different from the black SBEC.
+
+Note: ZJ/WJ Grand Cherokee PCMs are behind the glovebox. XJ Cherokee is under hood — a common cross-platform confusion.
 
 ## Fuse box
 - 1996: Under-dash fuse block (same as Era 2)
@@ -24,7 +26,7 @@ JTEC is behind the glovebox. Slim silver/gray box — physically different from 
 - All three coil trigger wires must be routed to the open source ECU ignition outputs
 
 ## JTEC connector and adapter harness
-JTEC uses two connectors (C1 and C2). The pinout differs from the SBEC — do not use an SBEC pinout for a JTEC vehicle. See `work/swaps/ecu/wiring/connectors/ecu-body/jtec.md`.
+JTEC uses **three connectors** (Black, White, Grey) — not two. The SBEC uses two connectors; do not use an SBEC pinout for a JTEC vehicle. Mopar connector pigtail P/Ns: Grey 05014011AA, White 05014012AA, Black 05014013AA. See `work/swaps/ecu/wiring/connectors/ecu-body/jtec.md`.
 
 ## Grounds
 Same ground refresh requirements as all eras. See `work/swaps/ecu/wiring/grounds.md`. Head-to-firewall ground is a common failure point on all XJ years.

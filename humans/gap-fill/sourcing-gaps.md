@@ -85,4 +85,4 @@ Most of the `sourcing/` tree is empty routers. Build the sourcing content the ex
 - NP231: any 1987–2001 XJ — highly interchangeable; verify slip yoke vs. fixed flange output
 
 Update all index.md routers in affected directories after writing.
-Also be sure to triple check information with online sources as you work.
+Also be sure to triple check information with online sources as you work. If its not backed by forum posts we dont want the information in our repository.

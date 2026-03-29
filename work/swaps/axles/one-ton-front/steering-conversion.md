@@ -105,6 +105,6 @@ With 37–40" tires on a Dana 60, the XJ's stock steering box may struggle to tu
 ---
 
 ## Related
-- High-steer arm fitment depends on knuckle: [`../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md`](../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md)
+- High-steer arm fitment depends on knuckle: [`../../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md`](../../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md)
 - Brake integration (shared knuckle): [`brake-integration.md`](brake-integration.md)
 - Mounting and brackets: [`mounting-and-brackets.md`](mounting-and-brackets.md)

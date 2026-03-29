@@ -91,7 +91,7 @@ Higher lift = steeper angles at the transfer case outputs. This affects vibratio
 | 8–12° | Marginal. CV joints work hard. May develop vibration. Pinion angle becomes critical. |
 | Over 12° | Not recommended. Premature CV joint and U-joint failure. Reconsider lift height or transfer case drop. |
 
-**SYE + CV driveshafts are mandatory at 6"+ lift** — see [`../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
+**SYE + CV driveshafts are mandatory at 6"+ lift** — see [`../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md`](../../../../sourcing/interchange/axles/one-ton-driveshaft-specs.md)
 
 ---
 

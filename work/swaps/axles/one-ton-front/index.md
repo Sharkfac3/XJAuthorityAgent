@@ -11,8 +11,8 @@ Route the front axle swap workflow for installing a 2005+ Super Duty Dana 60 und
 - the question is about front shock mounts, bump stops, or SOA mounting
 
 ## Do not start here when
-- the question is about which donor to target → [`../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md`](../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md)
-- the question is about fitment dimensions or width decisions → [`../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md`](../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md)
+- the question is about which donor to target → [`../../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md`](../../../../sourcing/donor-vehicles/axles/ford-super-duty-dana-60.md)
+- the question is about fitment dimensions or width decisions → [`../../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md`](../../../../sourcing/interchange/axles/super-duty-dana-60-fitment.md)
 - the question is about the rear axle → [`../one-ton-rear/index.md`](../one-ton-rear/index.md)
 - the question is about gearing or driveshafts → [`../support-work/index.md`](../support-work/index.md)
 
@@ -36,6 +36,6 @@ Work through these leaves in order:
    → [`mounting-and-brackets.md`](mounting-and-brackets.md)
 
 ## Boundary links
-- Stock XJ front axle baseline: [`../../../vehicle/systems/axles/stock-specs.md`](../../../vehicle/systems/axles/stock-specs.md)
+- Stock XJ front axle baseline: [`../../../../vehicle/systems/axles/stock-specs.md`](../../../../vehicle/systems/axles/stock-specs.md)
 - Lift and clearance planning: [`../support-work/lift-and-clearance.md`](../support-work/lift-and-clearance.md)
 - Driveshaft work (front): [`../support-work/driveshaft-work.md`](../support-work/driveshaft-work.md)
