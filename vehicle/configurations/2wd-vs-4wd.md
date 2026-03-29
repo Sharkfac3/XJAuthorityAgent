@@ -21,6 +21,7 @@ On a stock 4WD XJ, expect the answer to depend on:
 - shifter, linkage, and floor / tunnel packaging tied to the transfer case
 
 Start next with:
+- [`../systems/4wd/overview.md`](../systems/4wd/overview.md)
 - [`../systems/transfer-case/overview.md`](../systems/transfer-case/overview.md)
 - [`../systems/axles/overview.md`](../systems/axles/overview.md)
 
@@ -44,12 +45,14 @@ Use this file when the user is really asking:
 - whether a suspension, axle, or brake answer may differ because the Jeep is 4WD
 
 ## Current limits
-Current canon does not yet split out a full stock 2WD-vs-4WD hardware matrix by year, axle family, or package.
+The 4WD engagement system (transfer case modes, front axle disconnect, locking hub misconception) is now documented under [`../systems/4wd/overview.md`](../systems/4wd/overview.md). A full stock 2WD-vs-4WD hardware matrix by year and package is not yet built.
 Use this file as the first configuration filter, then route into the owning stock, work, diagnostics, or sourcing branch.
 
 ## Cross-links
 - Configuration routing root: [`index.md`](index.md)
 - Engine and transmission combinations: [`engine-trans-combinations.md`](engine-trans-combinations.md)
+- 4WD engagement system: [`../systems/4wd/overview.md`](../systems/4wd/overview.md)
+- Front axle disconnect (CAD): [`../systems/4wd/front-axle-disconnect.md`](../systems/4wd/front-axle-disconnect.md)
 - Transfer-case stock routing: [`../systems/transfer-case/overview.md`](../systems/transfer-case/overview.md)
 - Driveline diagnostics routing: [`../../diagnostics/driveline/index.md`](../../diagnostics/driveline/index.md)
 - Transfer-case diagnostics routing: [`../../diagnostics/transfer-case/index.md`](../../diagnostics/transfer-case/index.md)

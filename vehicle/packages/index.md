@@ -17,5 +17,6 @@ Use this branch for factory package or trim groups that materially change hardwa
 - procedures and repair workflows
 - aftermarket package-style modification guidance
 
-## Child branches
-- Expected child branches: `up-country/`, `towing-package/`, market- or trim-specific package folders when needed
+## Child leaves
+- [`trim-levels.md`](trim-levels.md) — complete trim level timeline (1984–2001) with mechanically significant differences; rear axle, wiring, and A/C implications by trim
+- [`option-packages.md`](option-packages.md) — Command-Trac, Selec-Trac, Trac-Lok, Up-Country, tow package, cold weather group

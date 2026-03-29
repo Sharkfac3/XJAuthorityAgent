@@ -18,7 +18,12 @@ Handling, steering feel, front-end movement, and chassis-instability diagnosis.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
-- `death-wobble.md` for violent front-end oscillation diagnosis
+## Child branches
+
+### Live
+- [`death-wobble.md`](death-wobble.md) — violent front-end oscillation: track bar, drag link, ball joints, diagnostic sequence
+- [`steering-box.md`](steering-box.md) — sector shaft slop, over-center adjustment, replacement threshold
+
+### Expected
 - `wander-or-loose-steering.md` for play, geometry, and steering-response faults
 - `lean-sag-or-ride-height-issues.md` for spring and side-to-side suspension problems

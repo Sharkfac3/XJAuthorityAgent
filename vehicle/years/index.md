@@ -11,6 +11,8 @@ Time is the main reason the answer changes.
 - **1991–1995 SBEC / OBD-I** → [`../era2/overview.md`](../era2/overview.md)
 - **1996–2001 JTEC / OBD-II** → [`../era3/overview.md`](../era3/overview.md)
 - **1996 exception handling** → [`../era3/1996-notes.md`](../era3/1996-notes.md)
+- **Cross-year parts compatibility or "what changed in year X"** → [`key-changes.md`](key-changes.md)
+- **Year or platform is outside coverage** → [`scope-boundary.md`](scope-boundary.md)
 
 ## Use these files to answer
 - which control-system family the Jeep has

@@ -5,6 +5,21 @@ Use this file as a dimensional baseline when comparing donor axles for swap proj
 
 ---
 
+## Year-range axle summary
+
+| Year range | Front axle | Rear axle | Notes |
+|------------|-----------|-----------|-------|
+| 1984–1986 | Dana 30 (260 U-joints) | Dana 35 (27-spline) | No C8.25 option |
+| 1987–1989 | Dana 30 (260 U-joints) | Dana 35 (27-spline) | Dana 44 rear with Tow Package |
+| 1990 | Dana 30 (260 U-joints) | Dana 35 (27-spline) | — |
+| 1991–1994 | Dana 30 (260 U-joints) | Dana 35 or C8.25 (27-spline) | C8.25 on non-ABS models |
+| 1995–1996 | Dana 30 (297 U-joints) | Dana 35 or C8.25 (27-spline) | C8.25 on non-ABS models |
+| 1997–2001 | Dana 30 (297 U-joints) | Chrysler 8.25 (29-spline) | Standard across all trims |
+
+For identification procedures, see [identification.md](identification.md).
+
+---
+
 ## Front Axle — Dana 30
 
 All XJ model years used the Dana 30 front axle (4WD models only).
@@ -64,14 +79,14 @@ The Dana 35 is the weakest rear axle offered in the XJ. C-clip retention means a
 
 ## Rear Axle — Chrysler 8.25
 
-Available 1992–2001. Standard on 1997–2001 XJs.
+Available 1991–2001. Standard on 1997–2001 XJs.
 
 | Spec | Value |
 |------|-------|
 | Type | Semi-float |
 | Housing width (WMS-to-WMS) | ~58.5" |
 | Axle tube OD | 3.0" |
-| Axle shaft spline count | 27-spline (92–96), 29-spline (97–01) |
+| Axle shaft spline count | 27-spline (91–96), 29-spline (97–01) |
 | Ring gear diameter | 8.25" |
 | Carrier bolts | 10 |
 | Axle bolt pattern | 5 on 4.5" |
@@ -124,3 +139,13 @@ Strongest factory rear axle in any XJ. Direct bolt-in to all XJ years. Extremely
 | Tube OD | 2.5" | 2.5" | 3.0" | 3.125" |
 | Width WMS | ~57.2" | ~58.5" | ~58.5" | ~58.5" |
 | Relative strength | Adequate to 33" | Weak past 31" | Good to 35" | Good to 37" |
+
+---
+
+## Axle identification and gear ratios
+
+For tag reading, visual identification, and the ABS/C8.25 connection, see the dedicated guide: [identification.md](identification.md).
+
+For gear ratio identification (reading tags, counting rotations, factory ratio pairings, and tire-size regearing guidance), see: [gear-ratio-identification.md](gear-ratio-identification.md).
+
+For locker and limited-slip options by axle, see: [locker-options.md](locker-options.md).

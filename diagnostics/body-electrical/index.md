@@ -18,7 +18,13 @@ Body wiring, switches, accessories, and cabin-electrical fault isolation.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
+## Child branches
+
+### Live
+- [`ground-faults.md`](ground-faults.md) — XJ ground strap locations, common failure points, symptoms of bad grounds
+- [`gauge-cluster.md`](gauge-cluster.md) — common gauge failures, temp sender vs. ECU sensor, cluster contacts
+
+### Expected
 - `door-lock-failure.md` for lock circuit and actuator faults
 - `window-failure.md` for power-window diagnosis
 - `lighting-faults.md` for interior or exterior body-electrical lighting issues

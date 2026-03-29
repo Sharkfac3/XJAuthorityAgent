@@ -15,7 +15,8 @@ The main question is about a factory subsystem and the answer is not primarily d
 - Charging and starting baseline → [`charging-starting/overview.md`](charging-starting/overview.md)
 - Transmission baseline → [`transmission/overview.md`](transmission/overview.md)
 - Transfer-case baseline → [`transfer-case/overview.md`](transfer-case/overview.md)
-- Axle baseline → [`axles/overview.md`](axles/overview.md)
+- 4WD engagement baseline → [`4wd/overview.md`](4wd/overview.md)
+- Axle baseline → [`axles/index.md`](axles/index.md)
 - Suspension baseline → [`suspension/overview.md`](suspension/overview.md)
 - Steering baseline → [`steering/overview.md`](steering/overview.md)
 - Brake baseline → [`brakes/overview.md`](brakes/overview.md)
@@ -27,6 +28,16 @@ The main question is about a factory subsystem and the answer is not primarily d
 - Cooling year changes: [`cooling/year-changes.md`](cooling/year-changes.md)
 - AW4 baseline: [`transmission/aw4/overview.md`](transmission/aw4/overview.md)
 - Manual transmission baseline: [`transmission/manual/overview.md`](transmission/manual/overview.md)
+- Dana 30 front axle detail: [`axles/dana30-front.md`](axles/dana30-front.md)
+- Front axle disconnect (CAD): [`4wd/front-axle-disconnect.md`](4wd/front-axle-disconnect.md)
+- Dana 35 C-clip failure modes: [`axles/dana35-rear.md`](axles/dana35-rear.md)
+- Chrysler 8.25 rear axle: [`axles/chrysler-825-rear.md`](axles/chrysler-825-rear.md)
+- Axle identification guide: [`axles/identification.md`](axles/identification.md)
+- Gear ratio identification: [`axles/gear-ratio-identification.md`](axles/gear-ratio-identification.md)
+- Locker and LSD options: [`axles/locker-options.md`](axles/locker-options.md)
+- Body rust locations (structural severity): [`body/rust-locations.md`](body/rust-locations.md)
+- Body rust inspection procedure: [`body/rust-inspection.md`](body/rust-inspection.md)
+- Body water intrusion leak points: [`body/water-intrusion.md`](body/water-intrusion.md)
 
 ## What belongs here
 - subsystem overviews

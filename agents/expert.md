@@ -35,3 +35,6 @@ When writing informational documents:
 - Separate stock facts, procedures, diagnostics, and sourcing in your reasoning.
 - Cite repo file paths when giving actionable guidance.
 - Keep writing practical, garage-usable, and technically grounded.
+
+## Read-only boundaries
+The `agents/` directory is owned exclusively by the knowledgebase-builder agent. Do not edit any file under `agents/` for any reason — not to update routing, not to add context, not as part of any task. If something in an agent file appears wrong or incomplete, surface it to the user and let the knowledgebase-builder handle it.

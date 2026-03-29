@@ -22,6 +22,11 @@ Use this branch when the main question is how to plan, source, prepare, install,
 
 Dana 60 front / Sterling 10.50 rear. The staged workflow below walks through the full one-ton conversion.
 
+### Stage 0 — Prerequisite reading
+Before beginning a swap project, confirm your current axle configuration:
+- Axle identification guide: [`../../../vehicle/systems/axles/identification.md`](../../../vehicle/systems/axles/identification.md)
+- Gear ratio identification: [`../../../vehicle/systems/axles/gear-ratio-identification.md`](../../../vehicle/systems/axles/gear-ratio-identification.md)
+
 ### Stage 1 — Understand the stock baseline
 Load:
 - [`../../../vehicle/systems/axles/overview.md`](../../../vehicle/systems/axles/overview.md)
@@ -102,6 +107,12 @@ Load:
 
 ## Boundary links
 - Stock axle baseline: [`../../../vehicle/systems/axles/overview.md`](../../../vehicle/systems/axles/overview.md)
+- Dana 30 front axle detail: [`../../../vehicle/systems/axles/dana30-front.md`](../../../vehicle/systems/axles/dana30-front.md)
+- Dana 35 rear axle detail: [`../../../vehicle/systems/axles/dana35-rear.md`](../../../vehicle/systems/axles/dana35-rear.md)
+- Chrysler 8.25 rear axle detail: [`../../../vehicle/systems/axles/chrysler-825-rear.md`](../../../vehicle/systems/axles/chrysler-825-rear.md)
 - Donor vehicle identification: [`../../../sourcing/donor-vehicles/axles/index.md`](../../../sourcing/donor-vehicles/axles/index.md)
 - Interchange and fitment decisions: [`../../../sourcing/interchange/axles/index.md`](../../../sourcing/interchange/axles/index.md)
+- Axle identification guide: [`../../../vehicle/systems/axles/identification.md`](../../../vehicle/systems/axles/identification.md)
+- Gear ratio identification: [`../../../vehicle/systems/axles/gear-ratio-identification.md`](../../../vehicle/systems/axles/gear-ratio-identification.md)
+- Locker and LSD options: [`../../../vehicle/systems/axles/locker-options.md`](../../../vehicle/systems/axles/locker-options.md)
 - Inspections (pre-swap): [`../../inspections/pre-swap/index.md`](../../inspections/pre-swap/index.md)

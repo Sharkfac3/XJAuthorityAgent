@@ -18,7 +18,12 @@ Body, sealing, trim, and interior symptom diagnosis.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
-- `water-leak.md` for cabin leaks, wet carpet, or hatch/door intrusion
-- `wind-noise.md` for seal, fit, and opening-related noise paths
-- `seat-or-latch-failure.md` for cabin hardware symptoms that need isolation before repair
+## Child branches
+
+### Live
+- [`water-intrusion.md`](water-intrusion.md) — wet carpet, dripping inside cabin, hatch/door intrusion; location-first isolation
+- [`rust-inspection.md`](rust-inspection.md) — rust assessment checklist for purchase evaluation or pre-lift inspection
+
+### Expected
+- `wind-noise.md` — seal, fit, and opening-related noise paths
+- `seat-or-latch-failure.md` — cabin hardware symptoms that need isolation before repair

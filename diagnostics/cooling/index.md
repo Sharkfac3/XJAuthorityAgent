@@ -20,11 +20,12 @@ Use this branch when the main question is what is causing a cooling symptom and 
 
 ## Current child leaves
 - [`overheating-at-idle.md`](overheating-at-idle.md) — low-speed heat-control diagnosis starter
+- [`overheating-at-speed.md`](overheating-at-speed.md) — highway-speed overheating; restriction and capacity causes
+- [`coolant-loss.md`](coolant-loss.md) — coolant level dropping with no visible external leak
+- [`white-exhaust.md`](white-exhaust.md) — distinguishing cold-start condensation from coolant burning
 
 ## Next likely child leaves
-- `coolant-loss.md`
 - `runs-cold-or-no-heat.md`
-- `overheating-at-speed.md`
 
 ## Supporting canon
 - Stock cooling baseline: [`vehicle/systems/cooling/overview.md`](../../vehicle/systems/cooling/overview.md)

@@ -18,7 +18,13 @@ Transfer-case range-selection, noise, leak, and engagement fault isolation.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
+## Child branches
+
+### Live
+- [`np231-noise.md`](np231-noise.md) — chain slap, output bearing noise, slip yoke vibration
+- [`np231-shift-issues.md`](np231-shift-issues.md) — difficulty engaging 4WD, binding on pavement, popping out of range
+
+### Expected
 - `will-not-shift-ranges.md` for linkage and internal-selection diagnosis
 - `popping-out-of-range.md` for engagement-hold faults
 - `transfer-case-noise-or-leak.md` for rotating or sealing problems

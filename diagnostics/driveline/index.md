@@ -18,7 +18,13 @@ Driveshaft, joint, mount, and rotational-vibration fault isolation.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
+## Child branches
+
+### Live
+- [`driveshaft-vibration.md`](driveshaft-vibration.md) — U-joint wear, slip yoke condition, driveshaft angle at lift
+- [`axle-noise.md`](axle-noise.md) — ring and pinion whine, pinion bearing, wheel bearing; front vs. rear isolation
+
+### Expected
 - `vibration-under-load.md` for acceleration-related driveline shake
 - `clunk-on-takeoff.md` for lash, mount, or joint-play diagnosis
 - `deceleration-vibration.md` for coast-side driveline fault isolation

@@ -18,7 +18,13 @@ Brake feel, pull, vibration, and braking-performance diagnosis.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
+## Child branches
+
+### Live
+- [`pedal-feel.md`](pedal-feel.md) — spongy, sinking, hard, and fading pedal; master cylinder vs. air vs. booster
+- [`rear-drum-issues.md`](rear-drum-issues.md) — seized adjusters, wheel cylinder leaks, contaminated shoes
+
+### Expected
 - `soft-pedal.md` for hydraulic feel and air-in-system paths
 - `pull-under-braking.md` for side-to-side brake imbalance
 - `brake-vibration.md` for pulsation, shimmy, or vibration during braking

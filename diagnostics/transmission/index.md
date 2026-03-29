@@ -18,7 +18,13 @@ Transmission behavior diagnosis and fault isolation.
 - donor or buying guidance as the primary topic
 - unrelated system diagnostics
 
-## Expected child branches
+## Child branches
+
+### Live
+- [`aw4-shift-quality.md`](aw4-shift-quality.md) — harsh/soft shifts, TCC lockup shudder, solenoid testing
+- [`aw4-fluid-condition.md`](aw4-fluid-condition.md) — burnt fluid diagnosis, pan drop inspection, filter interval
+
+### Expected
 - `hard-shift.md` for harsh shift behavior and control faults
 - `no-upshift-or-wrong-gear.md` for shift-schedule and ratio-hold issues
 - `slipping-or-flare.md` for loss-of-drive and clutch-apply symptoms

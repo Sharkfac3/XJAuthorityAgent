@@ -16,6 +16,7 @@ Same sensor, different pigtail. Confirm before ordering.
 ## Leaf files
 | Topic | File |
 |---|---|
+| HO engine identity and mechanical profile | `vehicle/era2/ho-engine.md` |
 | Crank/cam trigger system | `vehicle/era2/trigger.md` |
 | ASD relay / power circuit | `vehicle/era2/power-relay.md` |
 | Injectors | `vehicle/era2/injectors.md` |
