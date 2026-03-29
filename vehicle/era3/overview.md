@@ -23,6 +23,7 @@ OBD-II compliance is the primary change from Era 2. The JTEC adds downstream O2 
 | Crank/cam trigger | `vehicle/era3/trigger.md` |
 | ASD relay / power circuit | `vehicle/era3/power-relay.md` |
 | Injectors | `vehicle/era3/injectors.md` |
+| Fuel system (pump, tank, regulator) | `vehicle/systems/fuel/index.md` |
 | EVAP system | `vehicle/era3/evap.md` |
 | 1996 transition notes | `vehicle/era3/1996-notes.md` |
 | Ignition — distributor (1996–1999) | `vehicle/era3/ignition/distributor.md` |

@@ -14,6 +14,7 @@ The Renix system is a Bosch-licensed design from a Renault/Bendix joint venture.
 | Crank/cam trigger system | `vehicle/era1/trigger.md` |
 | Fuel/ignition power relay | `vehicle/era1/power-relay.md` |
 | Injectors | `vehicle/era1/injectors.md` |
+| Fuel system (pump, tank, regulator) | `vehicle/systems/fuel/index.md` |
 | MAP sensor | `vehicle/era1/sensors/map.md` |
 | TPS | `vehicle/era1/sensors/tps.md` |
 | CTS | `vehicle/era1/sensors/cts.md` |

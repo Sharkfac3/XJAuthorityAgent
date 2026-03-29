@@ -20,6 +20,7 @@ Same sensor, different pigtail. Confirm before ordering.
 | Crank/cam trigger system | `vehicle/era2/trigger.md` |
 | ASD relay / power circuit | `vehicle/era2/power-relay.md` |
 | Injectors | `vehicle/era2/injectors.md` |
+| Fuel system (pump, tank, regulator) | `vehicle/systems/fuel/index.md` |
 | MAP sensor | `vehicle/era2/sensors/map.md` |
 | TPS | `vehicle/era2/sensors/tps.md` |
 | CTS | `vehicle/era2/sensors/cts.md` |
