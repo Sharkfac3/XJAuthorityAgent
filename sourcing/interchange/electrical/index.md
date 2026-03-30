@@ -17,9 +17,9 @@ Charging, starting, wiring, and electrical interchange guidance.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Child leaves
-- [junkyard-upgrades.md](junkyard-upgrades.md) — community-compiled donor alternators, cruise control, gauges, and electrical from junkyard upgrade threads
+## Leaf files
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+| File | Topic |
+|------|-------|
+| [`battery-alternator-starter.md`](battery-alternator-starter.md) | Battery group sizes (OEM Group 58, upgrade Group 34); OEM Denso alternator; Mitsubishi starter; reman quality notes |
+| [`junkyard-upgrades.md`](junkyard-upgrades.md) | High-output alternator donors, cruise control, instrument cluster, power steering cooling |

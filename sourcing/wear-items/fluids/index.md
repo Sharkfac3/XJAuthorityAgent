@@ -1,22 +1,16 @@
-# Fluids Wear Items Index
+# Fluids Index
 
-## Purpose
-Provide a routing stub for wear items decisions related to the XJ fluids domain.
+Route fluid and lubricant selection questions.
 
-## Scope
-Selection guidance for fluids and lubricants.
+| Question | File |
+|---|---|
+| What oil does the engine take? | [engine-oil.md](engine-oil.md) |
+| What coolant does the XJ use? | [coolant.md](coolant.md) |
+| What fluid does the AW4 / AX-15 / BA-10/5 take? | [transmission-fluid.md](transmission-fluid.md) |
+| What fluid does the NP231 or NP242 take? | [transfer-case-fluid.md](transfer-case-fluid.md) |
+| What fluid do the axles take? | [axle-fluid.md](axle-fluid.md) |
 
-## What belongs here
-- donor options, fitment-decision notes, or part-family comparisons in this branch
-- local compatibility notes that affect the sourcing decision
-- links to future leaves such as `donor-options.md`, `oem-vs-aftermarket.md`, or `connector-sourcing.md`
-
-## What does not belong here
-- install procedures
-- stock-only fact baselines that belong under `vehicle/`
-- symptom-first troubleshooting that belongs under `diagnostics/`
-- unrelated sourcing classes outside this branch
-
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+## Boundary links
+- Maintenance execution after the fluid is chosen: [`../../../work/maintenance/index.md`](../../../work/maintenance/index.md)
+- Cooling system hardware context: [`../../../vehicle/systems/cooling/overview.md`](../../../vehicle/systems/cooling/overview.md)
+- Transmission identity before ordering: [`../../../vehicle/systems/transmission/overview.md`](../../../vehicle/systems/transmission/overview.md)

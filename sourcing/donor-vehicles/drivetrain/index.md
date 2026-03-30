@@ -17,6 +17,8 @@ Donor-vehicle guidance for engine, transmission, and transfer-case projects.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+## Leaf files
+
+| File | Topic |
+|------|-------|
+| [`transmissions.md`](transmissions.md) | AW4 donors (XJ 87-01, ZJ 1993 only, MJ); AX-15 donors and bellhousing cautions; NP231 interchange |

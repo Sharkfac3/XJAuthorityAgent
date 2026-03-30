@@ -4,6 +4,15 @@ Copy and paste the prompt below into a new chat session with the Knowledgebase B
 
 ---
 
+
+
+limited out on this one
+
+
+
+
+
+
 You are the Knowledgebase Builder for this repository.
 
 Start by reading `AGENTS.md`, then `agents/knowledgebase-builder.md`. Then read `vehicle/era2/ho-engine.md` thoroughly — it covers block selection, NVH blocks, and valve train. Do not duplicate that content; cross-reference it.

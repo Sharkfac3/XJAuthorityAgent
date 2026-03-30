@@ -1,22 +1,31 @@
 # Swap Kits Index
 
 ## Purpose
-Provide a routing stub for XJ swap kits decisions.
+Kit-selection guidance for XJ swap and upgrade projects.
 
-## Scope
-Kit-selection guidance for swap and upgrade projects.
+## Use this branch when
+The question is which kit to buy, which brand to choose, or what a kit does and does not include.
+
+## Leaf files
+
+| File | Topic |
+|------|-------|
+| [`lift-kits.md`](lift-kits.md) | Lift types by height, brand fitment, what a kit includes and what it does not fix |
+| [`sye-kits.md`](sye-kits.md) | Slip Yoke Eliminator for the NP231; when needed, brands, budget alternatives |
+| [`cad-delete.md`](cad-delete.md) | CAD delete kit for the Dana 30 front axle; replaces vacuum disconnect with solid shaft |
 
 ## What belongs here
-- decision support for this sourcing class
-- practical option comparisons
-- local compatibility or fitment notes tied to acquisition decisions
-- links to narrower donor, kit, connector, or part-family branches
+- decision support for kit selection
+- practical option and brand comparisons
+- fitment or compatibility notes tied to kit acquisition
 
 ## What does not belong here
-- full service or installation procedures
-- stock-only fact storage with no decision context
+- full installation procedures
+- stock-only fact baselines with no decision context
 - symptom trees
 - agent or governance content
 
-## Child branches
-- Expected child branches: system- or project-specific leaves such as `connector-sourcing.md`, `kit-selection.md`, or `donor-options.md`
+## Boundary links
+- Lift installation execution: [`../../work/index.md`](../../work/index.md)
+- Transfer case reference (NP231): [`../../vehicle/systems/transfer-case/overview.md`](../../vehicle/systems/transfer-case/overview.md)
+- Front axle disconnect reference: [`../../vehicle/systems/4wd/front-axle-disconnect.md`](../../vehicle/systems/4wd/front-axle-disconnect.md)

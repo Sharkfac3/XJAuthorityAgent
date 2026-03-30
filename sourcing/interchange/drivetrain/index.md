@@ -17,9 +17,9 @@ Transmission, transfer-case, and driveline interchange guidance.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Child leaves
-- [junkyard-upgrades.md](junkyard-upgrades.md) — community-compiled donor transmissions, transfer cases, driveshafts, and coolers from junkyard upgrade threads
+## Leaf files
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+| File | Topic |
+|------|-------|
+| [`driveshafts-and-ujoints.md`](driveshafts-and-ujoints.md) | Tom Woods custom driveshafts; Dana Spicer greaseable u-joints; stock-length interchange |
+| [`junkyard-upgrades.md`](junkyard-upgrades.md) | Donor transmissions, transfer cases, t-case internals, transmission coolers, hack-n-tap SYE |

@@ -17,6 +17,8 @@ Selection tradeoffs for engine-system replacement parts.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+## Leaf files
+
+| File | Topic |
+|------|-------|
+| [`gaskets.md`](gaskets.md) | Head gasket (Fel-Pro MLS vs. composite), exhaust manifold gasket (Remflex), intake gasket |

@@ -17,6 +17,8 @@ Donor-vehicle guidance for electrical and charging upgrades.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+## Leaf files
+
+| File | Topic |
+|------|-------|
+| [`ecu-and-electrical.md`](ecu-and-electrical.md) | ECU donor eras (Renix vs. HO), alternator donors, instrument cluster generation matching |

@@ -15,6 +15,29 @@ The main question is what to buy, what donor to pull from, which option to prefe
 - Routine wear-item selection → [`wear-items/index.md`](wear-items/index.md)
 
 ## Current live sourcing leaves
+
+### Swap kits
+- Lift kit types and brand fitment: [`swap-kits/lift-kits.md`](swap-kits/lift-kits.md)
+- SYE kit selection for NP231: [`swap-kits/sye-kits.md`](swap-kits/sye-kits.md)
+- CAD delete kit for Dana 30: [`swap-kits/cad-delete.md`](swap-kits/cad-delete.md)
+
+### OEM vs. aftermarket
+- Radiator (Mishimoto vs. stock vs. cheap eBay): [`oem-vs-aftermarket/cooling/radiator.md`](oem-vs-aftermarket/cooling/radiator.md)
+- Engine gaskets (Fel-Pro MLS, Remflex): [`oem-vs-aftermarket/engine/gaskets.md`](oem-vs-aftermarket/engine/gaskets.md)
+- Brake pads and rotors: [`oem-vs-aftermarket/brakes/pads-and-rotors.md`](oem-vs-aftermarket/brakes/pads-and-rotors.md)
+- Engine sensors (CPS, TPS, O2): [`oem-vs-aftermarket/electrical/sensors.md`](oem-vs-aftermarket/electrical/sensors.md)
+
+### Interchange
+- Battery, alternator, and starter: [`interchange/electrical/battery-alternator-starter.md`](interchange/electrical/battery-alternator-starter.md)
+- Driveshafts and u-joints (Tom Woods, Dana Spicer): [`interchange/drivetrain/driveshafts-and-ujoints.md`](interchange/drivetrain/driveshafts-and-ujoints.md)
+- Junkyard electrical upgrades (high-output alternator, etc.): [`interchange/electrical/junkyard-upgrades.md`](interchange/electrical/junkyard-upgrades.md)
+- Junkyard drivetrain upgrades (NV241-OR, hack-n-tap SYE, etc.): [`interchange/drivetrain/junkyard-upgrades.md`](interchange/drivetrain/junkyard-upgrades.md)
+
+### Donor vehicles
+- ECU, alternator, and instrument cluster donors: [`donor-vehicles/electrical/ecu-and-electrical.md`](donor-vehicles/electrical/ecu-and-electrical.md)
+- AW4, AX-15, and NP231 donors: [`donor-vehicles/drivetrain/transmissions.md`](donor-vehicles/drivetrain/transmissions.md)
+
+### Connectors
 - Connector repair strategy: [`connectors/pigtail-vs-rehousing.md`](connectors/pigtail-vs-rehousing.md)
 
 ## What belongs here

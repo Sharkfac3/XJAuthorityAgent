@@ -17,6 +17,8 @@ Selection tradeoffs for electrical-system parts.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+## Leaf files
+
+| File | Topic |
+|------|-------|
+| [`sensors.md`](sensors.md) | CPS, TPS, CTS/IAT, O2 sensors — brand preferences and failure risks |

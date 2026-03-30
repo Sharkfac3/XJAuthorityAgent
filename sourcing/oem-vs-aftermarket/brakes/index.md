@@ -17,6 +17,8 @@ Selection tradeoffs for brake-system parts.
 - symptom-first troubleshooting that belongs under `diagnostics/`
 - unrelated sourcing classes outside this branch
 
-## Expected child branches
-- narrow decision leaves named for the part family, donor family, or selection problem
-- project-linked compatibility leaves when a sourcing topic needs more than one decision file
+## Leaf files
+
+| File | Topic |
+|------|-------|
+| [`pads-and-rotors.md`](pads-and-rotors.md) | Front rotor brands (EBC, Centric, PowerStop); pad compound (semi-metallic vs. ceramic); rear drums |
