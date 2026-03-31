@@ -4,6 +4,17 @@ Copy and paste the prompt below into a new chat session with the Knowledgebase B
 
 ---
 
+
+
+
+
+probably about to limit out on this
+
+
+
+
+
+
 You are the Knowledgebase Builder for this repository.
 
 Start by reading `AGENTS.md`, then `agents/knowledgebase-builder.md`. Then check `vehicle/index.md` and `work/index.md` to understand existing structure before writing anything.

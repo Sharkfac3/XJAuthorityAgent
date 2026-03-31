@@ -18,6 +18,16 @@ Performance or reliability-oriented engine upgrades that retain the same engine 
 - sourcing-only comparisons as the primary topic
 - unrelated work classes or repo-governance content
 
+## Current leaves
+
+- `stroker-overview.md` — what stroking means, block selection, displacement math
+- `stroker-combinations.md` — 4.6L and 4.7L parts lists: crank, rods, pistons
+- `stroker-ecu-implications.md` — Required Fuel math, stock ECU limits, injector sizing, standalone ECU options
+- `stroker-head-and-intake.md` — head, intake, cam, exhaust for a stroked engine
+- `oil-filter-sae-conversion.md` — converting Renix block to SAE oil filter thread
+- `renix-injector-upgrade.md` — fuel injector upgrade on Renix-era engines
+- `renix-valve-cover-ccv-mod.md` — crankcase ventilation mod on Renix valve cover
+
 ## Expected child branches
 - `intake-and-exhaust-improvements/` for breathing-related upgrades
 - `cooling-and-oiling-support-upgrades/` for reliability improvements
