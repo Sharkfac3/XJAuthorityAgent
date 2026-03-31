@@ -26,7 +26,8 @@
       "WebFetch(domain:jeepstrokers.com)",
       "WebFetch(domain:www.jeepstrokers.com)",
       "WebFetch(domain:www.pirate4x4.com)",
-      "Bash(__NEW_LINE_2c375cafe2f5af37__ ls:*)"
+      "Bash(__NEW_LINE_2c375cafe2f5af37__ ls:*)",
+      "WebFetch(domain:www.hpacademy.com)"
     ]
   }
 }

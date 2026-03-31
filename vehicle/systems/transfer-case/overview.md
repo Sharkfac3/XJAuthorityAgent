@@ -65,10 +65,12 @@ Both use a slip-yoke rear output in stock form. The slip yoke is a common vibrat
 2WD XJs have no transfer case.
 
 ## Child leaves
-- [shifting-procedure.md](shifting-procedure.md) — redirect to shifting procedures in `work/`
 
-## Expected child branches
-- `np231.md` and `np242.md` when detailed internal specs or rebuild context warrants separation
+| File | Content |
+|------|---------|
+| [`np231.md`](np231.md) | NP231 slip yoke, SYE types, input shaft splines, chain wear, fluid spec |
+| [`np242.md`](np242.md) | NP242 modes, full-time differential, input/output shaft specs, fluid spec |
+| [`shifting-procedure.md`](shifting-procedure.md) | Redirect — shifting procedures live in `work/` |
 
 ## Cross-links
 - 4WD engagement system (mode positions, front axle disconnect): [`../4wd/overview.md`](../4wd/overview.md)

@@ -23,6 +23,11 @@ There is no AW4-style TPS-sharing requirement, no lockup-solenoid control path, 
 - Some years may use neutral or clutch inputs that matter to idle behavior, start interlock, or decel fuel logic.
 - Confirm the actual year-era wiring before changing engine-management architecture.
 
+## Detailed manual transmission leaves
+For per-unit gear ratios, fluid specs, and failure modes, see:
+- [`../ax15.md`](../ax15.md) — AX-15 identity, ratios, fluid, failure points
+- [`../ba10.md`](../ba10.md) — BA-10/5 identity, known failures, AX-15 swap context
+
 ## Modified-state pointer
 If the question is about an aftermarket or open-source ECU swap, use this file only for the stock baseline.
 

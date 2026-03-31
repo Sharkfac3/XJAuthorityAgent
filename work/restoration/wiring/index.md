@@ -1,24 +1,30 @@
 # Wiring Restoration Index
 
 ## Purpose
-Route harness restoration, connector rehabilitation, and stock wiring preservation work.
+Route harness restoration, connector rehabilitation, and stock wiring preservation work on factory XJ wiring. This section covers restoring degraded factory wiring on high-mileage vehicles.
 
-## Scope
-Harness restoration, connector rehabilitation, and stock wiring preservation work.
+**Scope boundary:** This section covers work on existing factory wiring. ECU swap-specific wiring work lives under `work/swaps/ecu/wiring/` — link there rather than duplicating content.
 
 ## What belongs here
-- concrete job folders and procedure leaves for this branch
-- local compatibility notes when year, drivetrain, ABS, or donor differences materially change the work
-- required-parts, procedure, and validation leaves when the topic grows beyond a single page
-- narrow cross-links to `vehicle/`, `diagnostics/`, or `sourcing/` when support context is needed
+- inspection and diagnosis of factory harness condition
+- ground strap location, prep, and replacement procedures
+- connector cleaning, re-pinning, and rehousing
+- harness splice and repair procedures
+- firewall connector service
+- local compatibility notes when year or era differences materially change the work
 
 ## What does not belong here
 - stock baseline facts with no action context
 - symptom-first troubleshooting trees
 - sourcing-only comparisons as the primary topic
-- unrelated work classes or repo-governance content
+- ECU swap wiring — see `work/swaps/ecu/wiring/`
 
-## Expected child branches
-- `harness-cleanup-and-rewrap/` for restoring original loom condition
-- `connector-rehabilitation/` for saving stock connectors and terminals
-- `factory-routing-and-retention/` for restoring clips, supports, and harness placement
+## Leaves
+
+| File | Topic |
+|------|-------|
+| [`inspection.md`](inspection.md) | How to inspect an XJ harness: what to look for, where it fails, tools needed |
+| [`ground-straps.md`](ground-straps.md) | All factory ground locations, corrosion symptoms, prep and replacement procedure |
+| [`connector-rehab.md`](connector-rehab.md) | Connector cleaning, pin replacement, EV1 brittle tab procedure, Metri-Pack re-pin |
+| [`harness-repair.md`](harness-repair.md) | Splice methods, when to repair vs replace, injector sub-harness replacement |
+| [`firewall-connector.md`](firewall-connector.md) | Firewall multi-pin connector locations, corrosion patterns, pin extraction and cleaning |

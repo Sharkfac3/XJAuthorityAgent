@@ -41,5 +41,6 @@ Use:
 - `work/swaps/ecu/integration/aw4-tps.md` for ECU-swap TPS-sharing procedure
 - `work/swaps/ecu/index.md` for the full ECU-swap workflow
 
-## Transition note
-This file is the new stock-facts home for AW4 baseline content split out of `vehicle/trans/aw4.md`.
+## Detailed AW4 leaf
+For gear ratios, fluid spec, solenoid logic, and common failures, see the flat leaf file:
+- [`../aw4.md`](../aw4.md)
