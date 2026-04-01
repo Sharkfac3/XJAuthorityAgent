@@ -62,7 +62,7 @@ EV1 (Bosch Jetronic) connectors are used on all injectors on 1987–1998 XJs. Th
 A broken tab does not mean the connector is immediately unusable. The connector will still seat and maintain contact without the tab. However, it can vibrate loose over time.
 
 Options:
-- **Replacement pigtail:** Cut the old connector 3–4 inches back from the body. Solder a new pre-made pigtail in its place using adhesive-lined heat shrink on each joint. Replacement EV1 pigtails (Standard Motor Products PC-946280 or equivalent) are available from RockAuto and Amazon.
+- **Replacement pigtail:** Cut the old connector 3–4 inches back from the body. Splice a new pre-made pigtail in its place using an open-barrel crimp connector with adhesive-lined heat shrink on each joint. Do not solder — this section of the harness is in a high-vibration zone (see `harness-repair.md` for why). Replacement EV1 pigtails (Standard Motor Products PC-946280 or equivalent) are available from RockAuto and Amazon.
 - **Full 6-injector pigtail harness:** For vehicles where multiple connectors are broken or degraded, a complete 6-injector sub-harness pigtail kit is available from XJ specialty suppliers. This replaces all six connectors at once and is the recommended approach for a full harness restoration. See `harness-repair.md`.
 
 Cross-references: `vehicle/era1/injectors.md`, `vehicle/era2/injectors.md`

@@ -67,8 +67,7 @@ These symptoms appear in NAXJA and community forum documentation as characterist
 ### Tools needed
 - Wire brush or flap wheel (for surface prep)
 - Socket set and torque wrench
-- Ratcheting crimper (for ring terminal work)
-- Solder and heat gun (for ring terminals 10 AWG and larger)
+- Ratcheting crimper rated for the terminal and wire gauge being used
 - Anti-corrosion compound (OxGard or equivalent)
 - Multimeter (to verify after installation)
 
@@ -78,7 +77,7 @@ These symptoms appear in NAXJA and community forum documentation as characterist
 
 2. **Prep both surfaces to bare metal.** Wire brush or flap wheel down to shiny metal at both the block/head surface and the chassis/firewall attachment point. Remove paint, rust, and oxidation completely. Ground resistance is a direct function of surface contact quality.
 
-3. **Install new hardware.** Use 10 AWG or heavier wire with quality crimp ring terminals. For 10 AWG and larger, solder the ring terminal after crimping. Star or split-lock washers under the ring terminal improve contact under vibration.
+3. **Install new hardware.** Use 10 AWG or heavier wire with quality crimp ring terminals. A proper ratcheting crimper sized to the terminal and wire gauge produces a gas-tight connection — solder is not required and adds a brittleness risk at the terminal entry point. Star or split-lock washers under the ring terminal improve contact under vibration.
 
 4. **Apply anti-corrosion compound.** Coat the connection with OxGard or equivalent immediately after torquing. This prevents immediate re-oxidation, especially important in the engine bay.
 
