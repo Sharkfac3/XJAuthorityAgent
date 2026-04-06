@@ -1,7 +1,7 @@
 # Vehicle Systems Index
 
 ## Purpose
-Route stock Jeep XJ facts by subsystem.
+Route stock Jeep XJ and MJ facts by subsystem.
 
 ## Use this branch when
 The main question is about a factory subsystem and the answer is not primarily driven by package or year alone.

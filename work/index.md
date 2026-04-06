@@ -1,7 +1,7 @@
 # Work Index
 
 ## Purpose
-Route job-oriented Jeep XJ content: maintenance, repair, restoration, upgrades, swaps, inspections, and setup work.
+Route job-oriented Jeep XJ and MJ content: maintenance, repair, restoration, upgrades, swaps, inspections, and setup work.
 
 ## Use this branch when
 The main question is how to do a job on or to the vehicle.
@@ -14,10 +14,10 @@ The main question is how to do a job on or to the vehicle.
 - Non-ECU swap projects → [`swaps/index.md`](swaps/index.md)
 - Condition-check and go/no-go workflow → [`inspections/index.md`](inspections/index.md)
 - Adjustment, setup, or post-install calibration → [`setup-and-calibration/index.md`](setup-and-calibration/index.md)
-- Aftermarket ECU swap execution → [`swaps/ecu/index.md`](swaps/ecu/index.md)
+- Swap projects (ECU, engine, axle, transmission, drivetrain, etc.) → [`swaps/index.md`](swaps/index.md)
 
 ## Scope
-Use `work/` for action-oriented XJ guidance.
+Use `work/` for action-oriented XJ and MJ guidance. Where procedures differ by platform, note it explicitly. Where hardware is shared, document once and cross-link.
 
 ## What belongs here
 - procedures and workflow leaves

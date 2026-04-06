@@ -1,4 +1,4 @@
-# XJ Authority Agent
+# XJ / MJ Authority Agent
 
 Primary router for this repository.
 
@@ -7,12 +7,12 @@ This project now has **two agent roles only**:
 - `agents/knowledgebase-builder.md`
 
 ## Repo identity
-This repo is a Jeep Cherokee XJ knowledgebase.
+This repo is a Jeep Cherokee XJ and Jeep Comanche MJ knowledgebase.
 
-It is meant to support one expert agent that can answer Jeep questions and write informational documents, and one separate builder agent that expands and hardens the knowledgebase.
+It supports one expert agent that can answer questions and write informational documents about both platforms, and one separate builder agent that expands and hardens the knowledgebase across both vehicles.
 
 ## Canonical knowledge roots
-- `vehicle/` — stock XJ facts, year differences, subsystem baselines
+- `vehicle/` — stock XJ and MJ facts, year differences, subsystem baselines, per-platform variations
 - `work/` — maintenance, repairs, upgrades, swaps, inspections, setup
 - `diagnostics/` — symptom-first troubleshooting and fault isolation
 - `sourcing/` — parts, donors, connectors, kits, interchange decisions
@@ -27,12 +27,12 @@ It is meant to support one expert agent that can answer Jeep questions and write
 - Do not recreate a separate governance knowledgebase.
 - Prefer deep, narrow files over broad summary files.
 - Cross-link instead of duplicating facts.
-- Treat `work/swaps/ecu/` as the canonical ECU swap execution branch.
+- Distinguish XJ-specific and MJ-specific content clearly where the platforms diverge.
 
 ## Choose the agent first
 ### Use the expert agent when the task is:
-- answering a Jeep Cherokee question
-- comparing stock hardware, upgrades, donors, or swap choices
+- answering a Jeep Cherokee XJ or Jeep Comanche MJ question
+- comparing stock hardware, upgrades, donors, or swap choices for either platform
 - explaining maintenance, repair, troubleshooting, or setup work
 - writing an informational document from repo facts
 - revising or expanding reader-facing technical content
@@ -56,13 +56,12 @@ Start with:
 When operating as the expert agent, classify the question before loading content:
 
 1. Stock fact or factory configuration question → `vehicle/`
-2. How-to / maintenance / repair / upgrade / swap / inspection / setup question → `work/`
+2. How-to / maintenance / repair / upgrade / swap / inspection / setup question → `work/` (swap subtopics live under `work/swaps/<type>/`)
 3. Symptom or fault-isolation question → `diagnostics/`
 4. Part / donor / connector / kit choice question → `sourcing/`
-5. Current ECU swap execution question → `work/swaps/ecu/`
-6. Informational writing request → the owning technical domain
+5. Informational writing request → the owning technical domain
 
-Then narrow by year, era, engine, transmission, drivetrain, ABS, axle family, donor family, or ECU platform when the answer depends on them.
+Then narrow by platform (XJ or MJ), year, era, engine, transmission, drivetrain, ABS, axle family, or donor family when the answer depends on them.
 
 ## Builder routing rules
 When operating as the knowledgebase-builder agent:

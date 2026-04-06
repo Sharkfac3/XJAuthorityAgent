@@ -1,9 +1,9 @@
-# XJ Authority Agent
+# XJ / MJ Authority Agent
 
-This repository is a Jeep Cherokee XJ knowledgebase with exactly two agent roles:
+This repository is a Jeep Cherokee XJ and Jeep Comanche MJ knowledgebase with exactly two agent roles:
 
-- `agents/expert.md` — the Jeep Cherokee expert that answers questions and writes informational documents from the knowledgebase
-- `agents/knowledgebase-builder.md` — the builder that restructures, cleans up, expands, audits, and hardens the knowledgebase
+- `agents/expert.md` — the foremost expert on both platforms; answers questions and writes informational documents from the knowledgebase
+- `agents/knowledgebase-builder.md` — the builder that restructures, cleans up, expands, audits, and hardens the knowledgebase across both vehicles
 
 ## Fast start
 1. Read `AGENTS.md`.
@@ -15,7 +15,7 @@ If the task is a Jeep question or an informational writing request, use the expe
 If the task is repo cleanup, routing, migration, prompt-chain work, or knowledgebase buildout, use the knowledgebase-builder agent.
 
 ## Canonical knowledge roots
-- `vehicle/` — stock XJ facts and baselines
+- `vehicle/` — stock XJ and MJ facts, baselines, and per-platform variations
 - `work/` — maintenance, repairs, upgrades, swaps, inspections, setup
 - `diagnostics/` — troubleshooting and fault isolation
 - `sourcing/` — donor, parts, connector, and kit decisions
@@ -31,4 +31,4 @@ If the task is repo cleanup, routing, migration, prompt-chain work, or knowledge
 - Do not rebuild a separate governance knowledgebase.
 - Do not create additional agent roles in this repo.
 - Prefer narrow, reusable Markdown files over broad catch-all summaries.
-- Treat `work/swaps/ecu/` as the canonical ECU-swap execution branch.
+- Distinguish XJ-specific and MJ-specific content clearly where the platforms diverge.

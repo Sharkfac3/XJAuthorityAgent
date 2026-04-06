@@ -1,7 +1,7 @@
 # Setup And Calibration Index
 
 ## Purpose
-Route XJ setup, adjustment, and calibration work.
+Route XJ and MJ setup, adjustment, and calibration work.
 
 ## Use this branch when
 The main question is how to set something correctly after installation, service, repair, or modification.

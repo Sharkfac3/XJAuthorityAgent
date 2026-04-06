@@ -1,7 +1,7 @@
 # Cooling System Index
 
 ## Purpose
-Route stock XJ cooling-system content.
+Route stock XJ and MJ cooling-system content.
 
 ## Use this branch when
 The main question is about factory cooling architecture, component specifications, failure modes of specific cooling components, or overheating diagnosis.

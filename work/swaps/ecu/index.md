@@ -1,9 +1,9 @@
 # ECU Swaps Index
 
 ## Purpose
-Route the canonical Jeep XJ aftermarket ECU conversion workflow.
+Route the Jeep XJ and MJ aftermarket ECU conversion workflow.
 
-Use this branch when the main question is how to plan, wire, start, validate, or tune an aftermarket ECU installation in an XJ.
+Use this branch when the main question is how to plan, wire, start, validate, or tune an aftermarket ECU installation in an XJ or MJ. The MJ shares the same Era 1 (Renix) and Era 2 (SBEC) ECU architecture as the XJ — Era 3 (JTEC) content applies to XJ only.
 
 ## Do not start here when
 - the question is mainly about stock factory configuration → [`../../../vehicle/index.md`](../../../vehicle/index.md)

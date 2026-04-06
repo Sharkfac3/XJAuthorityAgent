@@ -1,9 +1,9 @@
 ---
-name: xj-authority-agent
-description: Jeep Cherokee XJ knowledgebase router. Read AGENTS.md, choose exactly one of the two agent roles, then load only the needed files.
+name: xj-mj-authority-agent
+description: Jeep Cherokee XJ and Jeep Comanche MJ knowledgebase router. Read AGENTS.md, choose exactly one of the two agent roles, then load only the needed files.
 ---
 
-# XJ Authority Agent Skill
+# XJ / MJ Authority Agent Skill
 
 ## Required first step
 - Read `AGENTS.md`.

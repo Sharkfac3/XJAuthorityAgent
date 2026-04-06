@@ -28,7 +28,9 @@
       "WebFetch(domain:www.pirate4x4.com)",
       "Bash(__NEW_LINE_2c375cafe2f5af37__ ls:*)",
       "WebFetch(domain:www.hpacademy.com)",
-      "WebFetch(domain:www.lunghd.com)"
+      "WebFetch(domain:www.lunghd.com)",
+      "Bash(grep -r book --include=*.md agents/ humans/)",
+      "Bash(grep -r canonical --include=*.md work/swaps/ecu/)"
     ]
   }
 }

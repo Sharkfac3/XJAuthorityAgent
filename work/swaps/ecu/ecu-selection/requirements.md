@@ -1,4 +1,4 @@
-# ECU Selection: XJ 4.0L Requirements
+# ECU Selection: XJ and MJ 4.0L Requirements
 
 ## Minimum I/O for any era
 
@@ -53,5 +53,5 @@
 2. Verify trigger pattern support in the ECU's documentation
 3. Verify IAC support (stepper motor or plan the PWM IAC strategy — see `work/swaps/ecu/ecu-selection/iac-strategy.md`)
 4. Verify ignition output count matches your ignition setup
-5. Confirm active community with XJ-specific experience
+5. Confirm active community with XJ and MJ experience (shared architecture — same forums apply)
 6. See platform files: `work/swaps/ecu/ecu-selection/speeduino.md` and `work/swaps/ecu/ecu-selection/rusEFI.md`

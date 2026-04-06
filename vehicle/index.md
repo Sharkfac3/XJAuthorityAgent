@@ -1,10 +1,10 @@
 # Vehicle Index
 
 ## Purpose
-Route the expert agent to canonical stock Jeep XJ facts.
+Route the expert agent to canonical stock Jeep XJ and MJ facts.
 
 ## Use this branch when
-The main question is about what the Jeep came with, how a factory system is arranged, or what changed by year, era, package, or configuration.
+The main question is about what the XJ or MJ came with, how a factory system is arranged, or what changed by year, era, package, or configuration.
 
 ## First-hop loading path
 - **Year or control-system split matters first** → [`vehicle/years/index.md`](years/index.md)
@@ -37,4 +37,4 @@ The main question is about what the Jeep came with, how a factory system is arra
 - How to do the job: [`work/index.md`](../work/index.md)
 - What to test next: [`diagnostics/index.md`](../diagnostics/index.md)
 - What to buy or pull: [`sourcing/index.md`](../sourcing/index.md)
-- Aftermarket ECU conversion execution: [`../work/swaps/ecu/index.md`](../work/swaps/ecu/index.md)
+- Swap execution (ECU, axle, engine, etc.): [`../work/swaps/`](../work/swaps/)

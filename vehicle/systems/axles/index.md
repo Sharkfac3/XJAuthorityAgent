@@ -1,7 +1,7 @@
 # Axles Index
 
 ## Purpose
-Route stock axle content for the Jeep Cherokee XJ.
+Route stock axle content for the Jeep Cherokee XJ and Jeep Comanche MJ.
 
 ## Use this branch when
 The main question is about factory axle configuration, identification, specifications, gear ratios, or differential options.

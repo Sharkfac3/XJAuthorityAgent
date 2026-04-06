@@ -1,10 +1,10 @@
 # Electrical System Index
 
 ## Purpose
-Route stock XJ body electrical and power distribution facts.
+Route stock XJ and MJ body electrical and power distribution facts.
 
 ## Scope
-Factory chassis electrical architecture: battery, alternator, fuse blocks, power distribution, body electrical accessories, and instrument cluster. All years in scope (1988–2001).
+Factory chassis electrical architecture: battery, alternator, fuse blocks, power distribution, body electrical accessories, and instrument cluster. All years in scope (XJ 1988–2001; MJ 1986–1992). Most electrical architecture is shared between XJ and MJ — note any divergence explicitly.
 
 Charging system fundamentals (battery, cables, starter) are in a separate branch: [`../charging-starting/overview.md`](../charging-starting/overview.md).
 
